@@ -66,7 +66,7 @@ def generate_samples(model_key: str, prompt_row: dict):
         while True:
             try:
                 text = call_llm(models[model_key], prompt_row["prompt"]) #get the output text
-                break                                                                
+                break                                     
             except Exception as e:
                 print(f"[{model_key}] pid {prompt_row['prompt_id']} err: {e}",
                       file=sys.stderr) #print out the error message
@@ -100,12 +100,12 @@ def main():
         print(f"==> Generating outputs with {mkey} ...")
         # 4 as experience value 
         with cf.ThreadPoolExecutor(max_workers=4) as pool: #4 threads in the pool
-            futures = {} #use dict to map future with prompt id
+            futures = [] #all the tasks
             for p in prompts: # every line in json
-                future = pool.submit(generate_samples, mkey, p) #task = processing one intput prompt
-                futures[p["prompt_id"]] = future
-            for pid in sorted(futures): #every task has 8 lines
-                write_jsonl(out_file, futures[pid].result())
+                task = pool.submit(generate_samples, mkey, p) #task = processing one intput prompt
+                futures.append(task)
+            for task in futures: #every task has 8 lines
+                write_jsonl(out_file, task.result())
 
         print(f"Done, saved to {out_file}")
 
