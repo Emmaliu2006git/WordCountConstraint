@@ -48,7 +48,7 @@ def load_prompts(path: Path):
 
 #given a model and an input text, get the output tet
 def call_llm(model_name: str, prompt_text: str) -> str:
-    resp = client.ChatCompletion.create(
+    resp = client.chat.completions.create(
         model=model_name,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
@@ -66,15 +66,12 @@ def generate_samples(model_key: str, prompt_row: dict):
         while True:
             try:
                 text = call_llm(models[model_key], prompt_row["prompt"]) #get the output text
-                break                                     
-            except client.error.RateLimitError: #too many requests
-                print(f"[{model_key}] pid {prompt_row['prompt_id']} hit rate limit")
-                time.sleep(30)                            
+                break                                                                
             except Exception as e:
                 print(f"[{model_key}] pid {prompt_row['prompt_id']} err: {e}",
-                      file=sys.stderr) #other than request error, print out the error message
+                      file=sys.stderr) #print out the error message
                 time.sleep(10)
-
+        print(f"[{model_key}] Generated Output for Prompt {prompt_row['prompt_id']} Sample {sid}")
         result.append({
             "prompt_id": prompt_row["prompt_id"], #i (1-20)
             "sample_id": sid, #j(1-8)
@@ -103,12 +100,12 @@ def main():
         print(f"==> Generating outputs with {mkey} ...")
         # 4 as experience value 
         with cf.ThreadPoolExecutor(max_workers=4) as pool: #4 threads in the pool
-            futures = [] #all the tasks
+            futures = {} #use dict to map future with prompt id
             for p in prompts: # every line in json
-                task = pool.submit(generate_samples, mkey, p) #task = processing one intput prompt
-                futures.append(task)
-            for task in futures: #every task has 8 lines
-                write_jsonl(out_file, task.result())
+                future = pool.submit(generate_samples, mkey, p) #task = processing one intput prompt
+                futures[p["prompt_id"]] = future
+            for pid in sorted(futures): #every task has 8 lines
+                write_jsonl(out_file, futures[pid].result())
 
         print(f"Done, saved to {out_file}")
 
