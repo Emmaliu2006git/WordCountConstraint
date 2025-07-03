@@ -15,7 +15,7 @@ client = OpenAI(
 # path and constants
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent        
-DATA_DIR = ROOT / "data"                            
+DATA_DIR = ROOT / "data/topic_test"                            
 PROMPTS_FILE = DATA_DIR / "prompts.jsonl" 
 
 # constants
@@ -26,8 +26,8 @@ MAX_TOKENS = 2800    # allow the maximum of 2000 words
 
 #values are name on together
 models = {
-    "llama4scout": "meta-llama/llama-4-scout:free",
-    "deepseek-v3": "deepseek/deepseek-chat-v3-0324:free",
+    "llama4scout": "meta-llama/llama-4-scout",
+    "deepseek-v3": "deepseek/deepseek-chat",
     "gpt-4.1":     "openai/gpt-4.1"
 }
 
