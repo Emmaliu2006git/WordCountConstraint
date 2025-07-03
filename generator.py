@@ -20,8 +20,8 @@ PROMPTS_FILE = DATA_DIR / "prompts.jsonl"
 
 # constants
 number_of_samples = 8  # 8 outputs/prompt/model
-TEMPERATURE = 0.7 # chatgpt temp
-TOP_P = 1.0 # chatgpt tpp p 
+TEMPERATURE = 0.7 
+TOP_P = 1.0  
 MAX_TOKENS = 2800    # allow the maximum of 2000 words
 
 #values are name on together
