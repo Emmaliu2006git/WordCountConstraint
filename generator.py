@@ -20,7 +20,7 @@ PROMPTS_FILE = DATA_DIR / "prompts.jsonl"
 
 # constants
 number_of_samples = 8  # 8 outputs/prompt/model
-TEMPERATURE = 0.7 
+TEMPERATURE = 1.0 
 TOP_P = 1.0  
 MAX_TOKENS = 2800    # allow the maximum of 2000 words
 
@@ -80,7 +80,8 @@ def generate_samples(model_key: str, prompt_row: dict):
     return result
 
 def write_jsonl(path: Path, records):
-    with path.open("a") as f:
+    mode = "a" if path.exists() else "w"
+    with path.open(mode, encoding="utf-8") as f:
         for rec in records:
             json.dump(rec, f, ensure_ascii=False)
             f.write("\n")
