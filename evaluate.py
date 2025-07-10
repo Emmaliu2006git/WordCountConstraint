@@ -1,7 +1,7 @@
 import json, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
-DATA = ROOT / "data/topic_test"
+DATA = ROOT / "data/topic_test_lte"
 # the input file
 PROMPTS_FILE = DATA / "prompts.jsonl"
 WORD_RE = re.compile(r"\b\w+\b")

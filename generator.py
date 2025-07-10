@@ -15,7 +15,7 @@ client = OpenAI(
 # path and constants
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent        
-DATA_DIR = ROOT / "data/topic_test"                            
+DATA_DIR = ROOT / "data/topic_test_lte"                            
 PROMPTS_FILE = DATA_DIR / "prompts.jsonl" 
 
 # constants
