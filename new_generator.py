@@ -26,11 +26,11 @@ together_client = OpenAI(
 # ---------------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "data/topic_test_lte"
+DATA_DIR = ROOT / "data/format_test_1"
 PROMPTS_FILE = DATA_DIR / "prompts.jsonl"
 
 # Sampling settings
-number_of_samples = 8  # 8 outputs per prompt per model
+number_of_samples = 16  # 16 outputs per prompt per model
 TEMPERATURE = 1.0
 TOP_P = 1.0
 MAX_TOKENS = 2800  # Approximately 2000 words
