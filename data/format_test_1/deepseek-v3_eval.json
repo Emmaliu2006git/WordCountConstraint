@@ -1,0 +1,2355 @@
+{
+  "overall_rate": 0.22,
+  "per_prompt_rate": {
+    "1": 0.06,
+    "2": 0.0,
+    "3": 0.31,
+    "4": 0.31,
+    "5": 0.12,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.31,
+    "9": 0.0,
+    "10": 0.12,
+    "11": 0.69,
+    "12": 0.56,
+    "13": 0.25,
+    "14": 0.12,
+    "15": 0.0,
+    "16": 0.0,
+    "17": 0.5,
+    "18": 0.62,
+    "19": 0.06,
+    "20": 0.31
+  },
+  "per_relation": {
+    "approx": 0.22
+  },
+  "per_prompt_avg_abs_diff_pct": {
+    "1": 27.45,
+    "2": 42.63,
+    "3": 18.79,
+    "4": 15.92,
+    "5": 20.19,
+    "6": 29.69,
+    "7": 34.82,
+    "8": 17.68,
+    "9": 44.53,
+    "10": 29.25,
+    "11": 9.42,
+    "12": 13.59,
+    "13": 26.12,
+    "14": 29.22,
+    "15": 27.3,
+    "16": 26.93,
+    "17": 10.18,
+    "18": 9.73,
+    "19": 22.28,
+    "20": 25.67
+  },
+  "per_prompt_undergen_pct": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 0.56,
+    "4": 0.88,
+    "5": 0.5,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 0.75,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 0.75,
+    "12": 0.94,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 0.62,
+    "18": 0.5,
+    "19": 1.0,
+    "20": 0.88
+  },
+  "overall_undergen_pct": 0.87,
+  "details": {
+    "1": [
+      {
+        "actual": 667,
+        "target": 1500,
+        "diff_pct": -55.53,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 889,
+        "target": 1500,
+        "diff_pct": -40.73,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 806,
+        "target": 1500,
+        "diff_pct": -46.27,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 839,
+        "target": 1500,
+        "diff_pct": -44.07,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1115,
+        "target": 1500,
+        "diff_pct": -25.67,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1062,
+        "target": 1500,
+        "diff_pct": -29.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1346,
+        "target": 1500,
+        "diff_pct": -10.27,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1251,
+        "target": 1500,
+        "diff_pct": -16.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1213,
+        "target": 1500,
+        "diff_pct": -19.13,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1428,
+        "target": 1500,
+        "diff_pct": -4.8,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1317,
+        "target": 1500,
+        "diff_pct": -12.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1061,
+        "target": 1500,
+        "diff_pct": -29.27,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1264,
+        "target": 1500,
+        "diff_pct": -15.73,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1131,
+        "target": 1500,
+        "diff_pct": -24.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 968,
+        "target": 1500,
+        "diff_pct": -35.47,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1055,
+        "target": 1500,
+        "diff_pct": -29.67,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "2": [
+      {
+        "actual": 1288,
+        "target": 2000,
+        "diff_pct": -35.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1003,
+        "target": 2000,
+        "diff_pct": -49.85,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1073,
+        "target": 2000,
+        "diff_pct": -46.35,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1153,
+        "target": 2000,
+        "diff_pct": -42.35,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1106,
+        "target": 2000,
+        "diff_pct": -44.7,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1425,
+        "target": 2000,
+        "diff_pct": -28.75,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1240,
+        "target": 2000,
+        "diff_pct": -38.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1520,
+        "target": 2000,
+        "diff_pct": -24.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 880,
+        "target": 2000,
+        "diff_pct": -56.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1051,
+        "target": 2000,
+        "diff_pct": -47.45,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1097,
+        "target": 2000,
+        "diff_pct": -45.15,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1135,
+        "target": 2000,
+        "diff_pct": -43.25,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 831,
+        "target": 2000,
+        "diff_pct": -58.45,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1410,
+        "target": 2000,
+        "diff_pct": -29.5,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1015,
+        "target": 2000,
+        "diff_pct": -49.25,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1131,
+        "target": 2000,
+        "diff_pct": -43.45,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "3": [
+      {
+        "actual": 991,
+        "target": 1200,
+        "diff_pct": -17.42,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1423,
+        "target": 1200,
+        "diff_pct": 18.58,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1146,
+        "target": 1200,
+        "diff_pct": -4.5,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1140,
+        "target": 1200,
+        "diff_pct": -5.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1240,
+        "target": 1200,
+        "diff_pct": 3.33,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1393,
+        "target": 1200,
+        "diff_pct": 16.08,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 903,
+        "target": 1200,
+        "diff_pct": -24.75,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1698,
+        "target": 1200,
+        "diff_pct": 41.5,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 841,
+        "target": 1200,
+        "diff_pct": -29.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 810,
+        "target": 1200,
+        "diff_pct": -32.5,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1164,
+        "target": 1200,
+        "diff_pct": -3.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1185,
+        "target": 1200,
+        "diff_pct": -1.25,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1687,
+        "target": 1200,
+        "diff_pct": 40.58,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1345,
+        "target": 1200,
+        "diff_pct": 12.08,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 860,
+        "target": 1200,
+        "diff_pct": -28.33,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1462,
+        "target": 1200,
+        "diff_pct": 21.83,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "4": [
+      {
+        "actual": 695,
+        "target": 1300,
+        "diff_pct": -46.54,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1132,
+        "target": 1300,
+        "diff_pct": -12.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1324,
+        "target": 1300,
+        "diff_pct": 1.85,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1154,
+        "target": 1300,
+        "diff_pct": -11.23,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1101,
+        "target": 1300,
+        "diff_pct": -15.31,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 971,
+        "target": 1300,
+        "diff_pct": -25.31,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1122,
+        "target": 1300,
+        "diff_pct": -13.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1075,
+        "target": 1300,
+        "diff_pct": -17.31,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1004,
+        "target": 1300,
+        "diff_pct": -22.77,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1179,
+        "target": 1300,
+        "diff_pct": -9.31,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 915,
+        "target": 1300,
+        "diff_pct": -29.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1306,
+        "target": 1300,
+        "diff_pct": 0.46,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1222,
+        "target": 1300,
+        "diff_pct": -6.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1098,
+        "target": 1300,
+        "diff_pct": -15.54,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1292,
+        "target": 1300,
+        "diff_pct": -0.62,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 958,
+        "target": 1300,
+        "diff_pct": -26.31,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "5": [
+      {
+        "actual": 769,
+        "target": 1000,
+        "diff_pct": -23.1,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 799,
+        "target": 1000,
+        "diff_pct": -20.1,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 876,
+        "target": 1000,
+        "diff_pct": -12.4,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1257,
+        "target": 1000,
+        "diff_pct": 25.7,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1121,
+        "target": 1000,
+        "diff_pct": 12.1,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1327,
+        "target": 1000,
+        "diff_pct": 32.7,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 800,
+        "target": 1000,
+        "diff_pct": -20.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1185,
+        "target": 1000,
+        "diff_pct": 18.5,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1168,
+        "target": 1000,
+        "diff_pct": 16.8,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 798,
+        "target": 1000,
+        "diff_pct": -20.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 986,
+        "target": 1000,
+        "diff_pct": -1.4,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 777,
+        "target": 1000,
+        "diff_pct": -22.3,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 989,
+        "target": 1000,
+        "diff_pct": -1.1,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1458,
+        "target": 1000,
+        "diff_pct": 45.8,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1326,
+        "target": 1000,
+        "diff_pct": 32.6,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1183,
+        "target": 1000,
+        "diff_pct": 18.3,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "6": [
+      {
+        "actual": 1015,
+        "target": 1300,
+        "diff_pct": -21.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1071,
+        "target": 1300,
+        "diff_pct": -17.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1010,
+        "target": 1300,
+        "diff_pct": -22.31,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1076,
+        "target": 1300,
+        "diff_pct": -17.23,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 651,
+        "target": 1300,
+        "diff_pct": -49.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 759,
+        "target": 1300,
+        "diff_pct": -41.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 941,
+        "target": 1300,
+        "diff_pct": -27.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 988,
+        "target": 1300,
+        "diff_pct": -24.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1002,
+        "target": 1300,
+        "diff_pct": -22.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 864,
+        "target": 1300,
+        "diff_pct": -33.54,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 884,
+        "target": 1300,
+        "diff_pct": -32.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 870,
+        "target": 1300,
+        "diff_pct": -33.08,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 929,
+        "target": 1300,
+        "diff_pct": -28.54,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 817,
+        "target": 1300,
+        "diff_pct": -37.15,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1038,
+        "target": 1300,
+        "diff_pct": -20.15,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 710,
+        "target": 1300,
+        "diff_pct": -45.38,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "7": [
+      {
+        "actual": 788,
+        "target": 1600,
+        "diff_pct": -50.75,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1047,
+        "target": 1600,
+        "diff_pct": -34.56,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1013,
+        "target": 1600,
+        "diff_pct": -36.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1106,
+        "target": 1600,
+        "diff_pct": -30.88,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 948,
+        "target": 1600,
+        "diff_pct": -40.75,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1238,
+        "target": 1600,
+        "diff_pct": -22.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1186,
+        "target": 1600,
+        "diff_pct": -25.87,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 860,
+        "target": 1600,
+        "diff_pct": -46.25,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1267,
+        "target": 1600,
+        "diff_pct": -20.81,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 936,
+        "target": 1600,
+        "diff_pct": -41.5,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 851,
+        "target": 1600,
+        "diff_pct": -46.81,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1146,
+        "target": 1600,
+        "diff_pct": -28.38,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1181,
+        "target": 1600,
+        "diff_pct": -26.19,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 899,
+        "target": 1600,
+        "diff_pct": -43.81,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1272,
+        "target": 1600,
+        "diff_pct": -20.5,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 947,
+        "target": 1600,
+        "diff_pct": -40.81,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "8": [
+      {
+        "actual": 1102,
+        "target": 1200,
+        "diff_pct": -8.17,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1008,
+        "target": 1200,
+        "diff_pct": -16.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 906,
+        "target": 1200,
+        "diff_pct": -24.5,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1579,
+        "target": 1200,
+        "diff_pct": 31.58,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1160,
+        "target": 1200,
+        "diff_pct": -3.33,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1369,
+        "target": 1200,
+        "diff_pct": 14.08,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1165,
+        "target": 1200,
+        "diff_pct": -2.92,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1206,
+        "target": 1200,
+        "diff_pct": 0.5,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 820,
+        "target": 1200,
+        "diff_pct": -31.67,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1409,
+        "target": 1200,
+        "diff_pct": 17.42,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 648,
+        "target": 1200,
+        "diff_pct": -46.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1163,
+        "target": 1200,
+        "diff_pct": -3.08,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1073,
+        "target": 1200,
+        "diff_pct": -10.58,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 901,
+        "target": 1200,
+        "diff_pct": -24.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 808,
+        "target": 1200,
+        "diff_pct": -32.67,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1015,
+        "target": 1200,
+        "diff_pct": -15.42,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "9": [
+      {
+        "actual": 906,
+        "target": 1500,
+        "diff_pct": -39.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 795,
+        "target": 1500,
+        "diff_pct": -47.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 806,
+        "target": 1500,
+        "diff_pct": -46.27,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 931,
+        "target": 1500,
+        "diff_pct": -37.93,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 899,
+        "target": 1500,
+        "diff_pct": -40.07,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 943,
+        "target": 1500,
+        "diff_pct": -37.13,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 888,
+        "target": 1500,
+        "diff_pct": -40.8,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 885,
+        "target": 1500,
+        "diff_pct": -41.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 964,
+        "target": 1500,
+        "diff_pct": -35.73,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 795,
+        "target": 1500,
+        "diff_pct": -47.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 784,
+        "target": 1500,
+        "diff_pct": -47.73,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 630,
+        "target": 1500,
+        "diff_pct": -58.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 936,
+        "target": 1500,
+        "diff_pct": -37.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 735,
+        "target": 1500,
+        "diff_pct": -51.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 669,
+        "target": 1500,
+        "diff_pct": -55.4,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 747,
+        "target": 1500,
+        "diff_pct": -50.2,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "10": [
+      {
+        "actual": 880,
+        "target": 1500,
+        "diff_pct": -41.33,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 891,
+        "target": 1500,
+        "diff_pct": -40.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 933,
+        "target": 1500,
+        "diff_pct": -37.8,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1172,
+        "target": 1500,
+        "diff_pct": -21.87,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 944,
+        "target": 1500,
+        "diff_pct": -37.07,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1393,
+        "target": 1500,
+        "diff_pct": -7.13,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1209,
+        "target": 1500,
+        "diff_pct": -19.4,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 761,
+        "target": 1500,
+        "diff_pct": -49.27,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1206,
+        "target": 1500,
+        "diff_pct": -19.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1351,
+        "target": 1500,
+        "diff_pct": -9.93,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1212,
+        "target": 1500,
+        "diff_pct": -19.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1146,
+        "target": 1500,
+        "diff_pct": -23.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1001,
+        "target": 1500,
+        "diff_pct": -33.27,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1060,
+        "target": 1500,
+        "diff_pct": -29.33,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 953,
+        "target": 1500,
+        "diff_pct": -36.47,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 868,
+        "target": 1500,
+        "diff_pct": -42.13,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "11": [
+      {
+        "actual": 852,
+        "target": 1000,
+        "diff_pct": -14.8,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1001,
+        "target": 1000,
+        "diff_pct": 0.1,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 699,
+        "target": 1000,
+        "diff_pct": -30.1,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 917,
+        "target": 1000,
+        "diff_pct": -8.3,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 966,
+        "target": 1000,
+        "diff_pct": -3.4,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 992,
+        "target": 1000,
+        "diff_pct": -0.8,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 851,
+        "target": 1000,
+        "diff_pct": -14.9,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 704,
+        "target": 1000,
+        "diff_pct": -29.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1047,
+        "target": 1000,
+        "diff_pct": 4.7,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1023,
+        "target": 1000,
+        "diff_pct": 2.3,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1003,
+        "target": 1000,
+        "diff_pct": 0.3,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 968,
+        "target": 1000,
+        "diff_pct": -3.2,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 827,
+        "target": 1000,
+        "diff_pct": -17.3,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 922,
+        "target": 1000,
+        "diff_pct": -7.8,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 920,
+        "target": 1000,
+        "diff_pct": -8.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 949,
+        "target": 1000,
+        "diff_pct": -5.1,
+        "pass": true,
+        "under": true
+      }
+    ],
+    "12": [
+      {
+        "actual": 1191,
+        "target": 1300,
+        "diff_pct": -8.38,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1044,
+        "target": 1300,
+        "diff_pct": -19.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1295,
+        "target": 1300,
+        "diff_pct": -0.38,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 799,
+        "target": 1300,
+        "diff_pct": -38.54,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1196,
+        "target": 1300,
+        "diff_pct": -8.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1229,
+        "target": 1300,
+        "diff_pct": -5.46,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1226,
+        "target": 1300,
+        "diff_pct": -5.69,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1064,
+        "target": 1300,
+        "diff_pct": -18.15,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1193,
+        "target": 1300,
+        "diff_pct": -8.23,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1043,
+        "target": 1300,
+        "diff_pct": -19.77,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1310,
+        "target": 1300,
+        "diff_pct": 0.77,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1083,
+        "target": 1300,
+        "diff_pct": -16.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 977,
+        "target": 1300,
+        "diff_pct": -24.85,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 785,
+        "target": 1300,
+        "diff_pct": -39.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1288,
+        "target": 1300,
+        "diff_pct": -0.92,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1270,
+        "target": 1300,
+        "diff_pct": -2.31,
+        "pass": true,
+        "under": true
+      }
+    ],
+    "13": [
+      {
+        "actual": 1284,
+        "target": 1600,
+        "diff_pct": -19.75,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 981,
+        "target": 1600,
+        "diff_pct": -38.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1302,
+        "target": 1600,
+        "diff_pct": -18.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1480,
+        "target": 1600,
+        "diff_pct": -7.5,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 855,
+        "target": 1600,
+        "diff_pct": -46.56,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1498,
+        "target": 1600,
+        "diff_pct": -6.38,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 854,
+        "target": 1600,
+        "diff_pct": -46.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 815,
+        "target": 1600,
+        "diff_pct": -49.06,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1488,
+        "target": 1600,
+        "diff_pct": -7.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 862,
+        "target": 1600,
+        "diff_pct": -46.12,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1243,
+        "target": 1600,
+        "diff_pct": -22.31,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1390,
+        "target": 1600,
+        "diff_pct": -13.12,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1599,
+        "target": 1600,
+        "diff_pct": -0.06,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1303,
+        "target": 1600,
+        "diff_pct": -18.56,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1013,
+        "target": 1600,
+        "diff_pct": -36.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 946,
+        "target": 1600,
+        "diff_pct": -40.88,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "14": [
+      {
+        "actual": 954,
+        "target": 1400,
+        "diff_pct": -31.86,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1077,
+        "target": 1400,
+        "diff_pct": -23.07,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 812,
+        "target": 1400,
+        "diff_pct": -42.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1238,
+        "target": 1400,
+        "diff_pct": -11.57,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 880,
+        "target": 1400,
+        "diff_pct": -37.14,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 967,
+        "target": 1400,
+        "diff_pct": -30.93,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1011,
+        "target": 1400,
+        "diff_pct": -27.79,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 801,
+        "target": 1400,
+        "diff_pct": -42.79,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1290,
+        "target": 1400,
+        "diff_pct": -7.86,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 769,
+        "target": 1400,
+        "diff_pct": -45.07,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1058,
+        "target": 1400,
+        "diff_pct": -24.43,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 996,
+        "target": 1400,
+        "diff_pct": -28.86,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1329,
+        "target": 1400,
+        "diff_pct": -5.07,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1069,
+        "target": 1400,
+        "diff_pct": -23.64,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 849,
+        "target": 1400,
+        "diff_pct": -39.36,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 754,
+        "target": 1400,
+        "diff_pct": -46.14,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "15": [
+      {
+        "actual": 834,
+        "target": 1200,
+        "diff_pct": -30.5,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 772,
+        "target": 1200,
+        "diff_pct": -35.67,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1016,
+        "target": 1200,
+        "diff_pct": -15.33,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1018,
+        "target": 1200,
+        "diff_pct": -15.17,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 811,
+        "target": 1200,
+        "diff_pct": -32.42,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 799,
+        "target": 1200,
+        "diff_pct": -33.42,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 984,
+        "target": 1200,
+        "diff_pct": -18.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 727,
+        "target": 1200,
+        "diff_pct": -39.42,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1040,
+        "target": 1200,
+        "diff_pct": -13.33,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 877,
+        "target": 1200,
+        "diff_pct": -26.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 957,
+        "target": 1200,
+        "diff_pct": -20.25,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 689,
+        "target": 1200,
+        "diff_pct": -42.58,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 863,
+        "target": 1200,
+        "diff_pct": -28.08,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 919,
+        "target": 1200,
+        "diff_pct": -23.42,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 935,
+        "target": 1200,
+        "diff_pct": -22.08,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 718,
+        "target": 1200,
+        "diff_pct": -40.17,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "16": [
+      {
+        "actual": 621,
+        "target": 1500,
+        "diff_pct": -58.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1281,
+        "target": 1500,
+        "diff_pct": -14.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1217,
+        "target": 1500,
+        "diff_pct": -18.87,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1170,
+        "target": 1500,
+        "diff_pct": -22.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1121,
+        "target": 1500,
+        "diff_pct": -25.27,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1169,
+        "target": 1500,
+        "diff_pct": -22.07,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1077,
+        "target": 1500,
+        "diff_pct": -28.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1262,
+        "target": 1500,
+        "diff_pct": -15.87,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1023,
+        "target": 1500,
+        "diff_pct": -31.8,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1308,
+        "target": 1500,
+        "diff_pct": -12.8,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1143,
+        "target": 1500,
+        "diff_pct": -23.8,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1170,
+        "target": 1500,
+        "diff_pct": -22.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 777,
+        "target": 1500,
+        "diff_pct": -48.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 831,
+        "target": 1500,
+        "diff_pct": -44.6,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1200,
+        "target": 1500,
+        "diff_pct": -20.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1166,
+        "target": 1500,
+        "diff_pct": -22.27,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "17": [
+      {
+        "actual": 881,
+        "target": 1000,
+        "diff_pct": -11.9,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 955,
+        "target": 1000,
+        "diff_pct": -4.5,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1071,
+        "target": 1000,
+        "diff_pct": 7.1,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 888,
+        "target": 1000,
+        "diff_pct": -11.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 858,
+        "target": 1000,
+        "diff_pct": -14.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1189,
+        "target": 1000,
+        "diff_pct": 18.9,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1080,
+        "target": 1000,
+        "diff_pct": 8.0,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 976,
+        "target": 1000,
+        "diff_pct": -2.4,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 830,
+        "target": 1000,
+        "diff_pct": -17.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 991,
+        "target": 1000,
+        "diff_pct": -0.9,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1044,
+        "target": 1000,
+        "diff_pct": 4.4,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1114,
+        "target": 1000,
+        "diff_pct": 11.4,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1002,
+        "target": 1000,
+        "diff_pct": 0.2,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 838,
+        "target": 1000,
+        "diff_pct": -16.2,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 676,
+        "target": 1000,
+        "diff_pct": -32.4,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 979,
+        "target": 1000,
+        "diff_pct": -2.1,
+        "pass": true,
+        "under": true
+      }
+    ],
+    "18": [
+      {
+        "actual": 1105,
+        "target": 1300,
+        "diff_pct": -15.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1235,
+        "target": 1300,
+        "diff_pct": -5.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1246,
+        "target": 1300,
+        "diff_pct": -4.15,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1368,
+        "target": 1300,
+        "diff_pct": 5.23,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 937,
+        "target": 1300,
+        "diff_pct": -27.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1260,
+        "target": 1300,
+        "diff_pct": -3.08,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1318,
+        "target": 1300,
+        "diff_pct": 1.38,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1318,
+        "target": 1300,
+        "diff_pct": 1.38,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1090,
+        "target": 1300,
+        "diff_pct": -16.15,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1403,
+        "target": 1300,
+        "diff_pct": 7.92,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1085,
+        "target": 1300,
+        "diff_pct": -16.54,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1334,
+        "target": 1300,
+        "diff_pct": 2.62,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1395,
+        "target": 1300,
+        "diff_pct": 7.31,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1205,
+        "target": 1300,
+        "diff_pct": -7.31,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1590,
+        "target": 1300,
+        "diff_pct": 22.31,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1461,
+        "target": 1300,
+        "diff_pct": 12.38,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "19": [
+      {
+        "actual": 891,
+        "target": 1300,
+        "diff_pct": -31.46,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 991,
+        "target": 1300,
+        "diff_pct": -23.77,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1053,
+        "target": 1300,
+        "diff_pct": -19.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1188,
+        "target": 1300,
+        "diff_pct": -8.62,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 926,
+        "target": 1300,
+        "diff_pct": -28.77,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1024,
+        "target": 1300,
+        "diff_pct": -21.23,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1044,
+        "target": 1300,
+        "diff_pct": -19.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1006,
+        "target": 1300,
+        "diff_pct": -22.62,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 822,
+        "target": 1300,
+        "diff_pct": -36.77,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1111,
+        "target": 1300,
+        "diff_pct": -14.54,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 977,
+        "target": 1300,
+        "diff_pct": -24.85,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1117,
+        "target": 1300,
+        "diff_pct": -14.08,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1095,
+        "target": 1300,
+        "diff_pct": -15.77,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 940,
+        "target": 1300,
+        "diff_pct": -27.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1077,
+        "target": 1300,
+        "diff_pct": -17.15,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 903,
+        "target": 1300,
+        "diff_pct": -30.54,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "20": [
+      {
+        "actual": 985,
+        "target": 1600,
+        "diff_pct": -38.44,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1200,
+        "target": 1600,
+        "diff_pct": -25.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1507,
+        "target": 1600,
+        "diff_pct": -5.81,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1480,
+        "target": 1600,
+        "diff_pct": -7.5,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 920,
+        "target": 1600,
+        "diff_pct": -42.5,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1269,
+        "target": 1600,
+        "diff_pct": -20.69,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1154,
+        "target": 1600,
+        "diff_pct": -27.88,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1617,
+        "target": 1600,
+        "diff_pct": 1.06,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 686,
+        "target": 1600,
+        "diff_pct": -57.12,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1198,
+        "target": 1600,
+        "diff_pct": -25.12,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1459,
+        "target": 1600,
+        "diff_pct": -8.81,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1195,
+        "target": 1600,
+        "diff_pct": -25.31,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1764,
+        "target": 1600,
+        "diff_pct": 10.25,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 868,
+        "target": 1600,
+        "diff_pct": -45.75,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1499,
+        "target": 1600,
+        "diff_pct": -6.31,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 589,
+        "target": 1600,
+        "diff_pct": -63.19,
+        "pass": false,
+        "under": true
+      }
+    ]
+  }
+}

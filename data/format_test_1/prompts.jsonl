@@ -18,4 +18,3 @@
 {"category": "numerical", "constraint": "word count", "prompt_id": 18, "prompt": "What are common sources of conflict between teenagers and their parents? Answer in approximately 1300 words.", "verification": {"relation": "approx", "target": 1300}}
 {"category": "numerical", "constraint": "word count", "prompt_id": 19, "prompt": "In approximately 1300 words, explain what the Dada art movement was and how it challenged traditional ideas of art and culture.", "verification": {"relation": "approx", "target": 1300}}
 {"category": "numerical", "constraint": "word count", "prompt_id": 20, "prompt": "Describe the impact of the internet on global communication in a piece approximately 1600 words long.", "verification": {"relation": "approx", "target": 1600}}
-
