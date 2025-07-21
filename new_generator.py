@@ -26,11 +26,11 @@ together_client = OpenAI(
 # ---------------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "data/format_test_1"
+DATA_DIR = ROOT / "data/position_test_1"
 PROMPTS_FILE = DATA_DIR / "prompts.jsonl"
 
 # Sampling settings
-number_of_samples = 16  # 16 outputs per prompt per model
+number_of_samples = 8  # 8 outputs per prompt per model
 TEMPERATURE = 1.0
 TOP_P = 1.0
 MAX_TOKENS = 2800  # Approximately 2000 words
@@ -61,6 +61,9 @@ def load_prompts(path: Path):
 def call_llm(model_info: dict, prompt_text: str) -> str:
     client = model_info["client"]
     model_name = model_info["name"]
+    #sleep during the quota limit for together ai
+    if "together.xyz" in str(getattr(client, "base_url", "")):
+        time.sleep(1.1)
     resp = client.chat.completions.create(
         model=model_name,
         messages=[

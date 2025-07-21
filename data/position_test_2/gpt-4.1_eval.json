@@ -1,0 +1,1235 @@
+{
+  "overall_rate": 0.56,
+  "per_prompt_rate": {
+    "1": 0.5,
+    "2": 0.5,
+    "3": 0.62,
+    "4": 0.75,
+    "5": 0.0,
+    "6": 0.38,
+    "7": 1.0,
+    "8": 0.0,
+    "9": 0.5,
+    "10": 0.75,
+    "11": 0.75,
+    "12": 0.12,
+    "13": 0.25,
+    "14": 0.88,
+    "15": 0.62,
+    "16": 0.75,
+    "17": 0.5,
+    "18": 1.0,
+    "19": 0.75,
+    "20": 0.62
+  },
+  "per_relation": {
+    "approx": 0.56
+  },
+  "per_prompt_avg_abs_diff_pct": {
+    "1": 8.8,
+    "2": 8.68,
+    "3": 9.43,
+    "4": 6.8,
+    "5": 41.02,
+    "6": 11.59,
+    "7": 3.27,
+    "8": 30.84,
+    "9": 10.64,
+    "10": 6.37,
+    "11": 7.04,
+    "12": 13.73,
+    "13": 14.38,
+    "14": 8.74,
+    "15": 6.82,
+    "16": 8.45,
+    "17": 9.5,
+    "18": 3.76,
+    "19": 8.53,
+    "20": 7.49
+  },
+  "per_prompt_undergen_pct": {
+    "1": 0.0,
+    "2": 0.75,
+    "3": 0.0,
+    "4": 0.5,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.25,
+    "8": 0.0,
+    "9": 1.0,
+    "10": 0.5,
+    "11": 0.38,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 0.0,
+    "15": 0.75,
+    "16": 0.25,
+    "17": 0.0,
+    "18": 0.62,
+    "19": 0.12,
+    "20": 0.38
+  },
+  "overall_undergen_pct": 0.28,
+  "details": {
+    "1": [
+      {
+        "actual": 1576,
+        "target": 1500,
+        "diff_pct": 5.07,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1720,
+        "target": 1500,
+        "diff_pct": 14.67,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1676,
+        "target": 1500,
+        "diff_pct": 11.73,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1598,
+        "target": 1500,
+        "diff_pct": 6.53,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1580,
+        "target": 1500,
+        "diff_pct": 5.33,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1663,
+        "target": 1500,
+        "diff_pct": 10.87,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1521,
+        "target": 1500,
+        "diff_pct": 1.4,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1722,
+        "target": 1500,
+        "diff_pct": 14.8,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "2": [
+      {
+        "actual": 1589,
+        "target": 2000,
+        "diff_pct": -20.55,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 2088,
+        "target": 2000,
+        "diff_pct": 4.4,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1974,
+        "target": 2000,
+        "diff_pct": -1.3,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 2121,
+        "target": 2000,
+        "diff_pct": 6.05,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1958,
+        "target": 2000,
+        "diff_pct": -2.1,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1782,
+        "target": 2000,
+        "diff_pct": -10.9,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1742,
+        "target": 2000,
+        "diff_pct": -12.9,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1775,
+        "target": 2000,
+        "diff_pct": -11.25,
+        "pass": false,
+        "under": true
+      }
+    ],
+    "3": [
+      {
+        "actual": 1276,
+        "target": 1200,
+        "diff_pct": 6.33,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1285,
+        "target": 1200,
+        "diff_pct": 7.08,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1307,
+        "target": 1200,
+        "diff_pct": 8.92,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1357,
+        "target": 1200,
+        "diff_pct": 13.08,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1352,
+        "target": 1200,
+        "diff_pct": 12.67,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1339,
+        "target": 1200,
+        "diff_pct": 11.58,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1278,
+        "target": 1200,
+        "diff_pct": 6.5,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1311,
+        "target": 1200,
+        "diff_pct": 9.25,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "4": [
+      {
+        "actual": 1260,
+        "target": 1300,
+        "diff_pct": -3.08,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1510,
+        "target": 1300,
+        "diff_pct": 16.15,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1292,
+        "target": 1300,
+        "diff_pct": -0.62,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1239,
+        "target": 1300,
+        "diff_pct": -4.69,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1196,
+        "target": 1300,
+        "diff_pct": -8.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1326,
+        "target": 1300,
+        "diff_pct": 2.0,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1454,
+        "target": 1300,
+        "diff_pct": 11.85,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1404,
+        "target": 1300,
+        "diff_pct": 8.0,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "5": [
+      {
+        "actual": 1285,
+        "target": 1000,
+        "diff_pct": 28.5,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1385,
+        "target": 1000,
+        "diff_pct": 38.5,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1741,
+        "target": 1000,
+        "diff_pct": 74.1,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1441,
+        "target": 1000,
+        "diff_pct": 44.1,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1258,
+        "target": 1000,
+        "diff_pct": 25.8,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1287,
+        "target": 1000,
+        "diff_pct": 28.7,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1309,
+        "target": 1000,
+        "diff_pct": 30.9,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1576,
+        "target": 1000,
+        "diff_pct": 57.6,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "6": [
+      {
+        "actual": 1327,
+        "target": 1300,
+        "diff_pct": 2.08,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1578,
+        "target": 1300,
+        "diff_pct": 21.38,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1399,
+        "target": 1300,
+        "diff_pct": 7.62,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1492,
+        "target": 1300,
+        "diff_pct": 14.77,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1314,
+        "target": 1300,
+        "diff_pct": 1.08,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1557,
+        "target": 1300,
+        "diff_pct": 19.77,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1505,
+        "target": 1300,
+        "diff_pct": 15.77,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1433,
+        "target": 1300,
+        "diff_pct": 10.23,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "7": [
+      {
+        "actual": 1603,
+        "target": 1600,
+        "diff_pct": 0.19,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1593,
+        "target": 1600,
+        "diff_pct": -0.44,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1578,
+        "target": 1600,
+        "diff_pct": -1.38,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1735,
+        "target": 1600,
+        "diff_pct": 8.44,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1620,
+        "target": 1600,
+        "diff_pct": 1.25,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1653,
+        "target": 1600,
+        "diff_pct": 3.31,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1711,
+        "target": 1600,
+        "diff_pct": 6.94,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1667,
+        "target": 1600,
+        "diff_pct": 4.19,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "8": [
+      {
+        "actual": 1507,
+        "target": 1200,
+        "diff_pct": 25.58,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1511,
+        "target": 1200,
+        "diff_pct": 25.92,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1645,
+        "target": 1200,
+        "diff_pct": 37.08,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1586,
+        "target": 1200,
+        "diff_pct": 32.17,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1616,
+        "target": 1200,
+        "diff_pct": 34.67,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1604,
+        "target": 1200,
+        "diff_pct": 33.67,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1606,
+        "target": 1200,
+        "diff_pct": 33.83,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1486,
+        "target": 1200,
+        "diff_pct": 23.83,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "9": [
+      {
+        "actual": 1425,
+        "target": 1500,
+        "diff_pct": -5.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1193,
+        "target": 1500,
+        "diff_pct": -20.47,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1292,
+        "target": 1500,
+        "diff_pct": -13.87,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1200,
+        "target": 1500,
+        "diff_pct": -20.0,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1345,
+        "target": 1500,
+        "diff_pct": -10.33,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1390,
+        "target": 1500,
+        "diff_pct": -7.33,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1440,
+        "target": 1500,
+        "diff_pct": -4.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1438,
+        "target": 1500,
+        "diff_pct": -4.13,
+        "pass": true,
+        "under": true
+      }
+    ],
+    "10": [
+      {
+        "actual": 1686,
+        "target": 1500,
+        "diff_pct": 12.4,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1386,
+        "target": 1500,
+        "diff_pct": -7.6,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1632,
+        "target": 1500,
+        "diff_pct": 8.8,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1683,
+        "target": 1500,
+        "diff_pct": 12.2,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1515,
+        "target": 1500,
+        "diff_pct": 1.0,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1436,
+        "target": 1500,
+        "diff_pct": -4.27,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1440,
+        "target": 1500,
+        "diff_pct": -4.0,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1489,
+        "target": 1500,
+        "diff_pct": -0.73,
+        "pass": true,
+        "under": true
+      }
+    ],
+    "11": [
+      {
+        "actual": 977,
+        "target": 1000,
+        "diff_pct": -2.3,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 947,
+        "target": 1000,
+        "diff_pct": -5.3,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1057,
+        "target": 1000,
+        "diff_pct": 5.7,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1106,
+        "target": 1000,
+        "diff_pct": 10.6,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1250,
+        "target": 1000,
+        "diff_pct": 25.0,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 985,
+        "target": 1000,
+        "diff_pct": -1.5,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1042,
+        "target": 1000,
+        "diff_pct": 4.2,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1017,
+        "target": 1000,
+        "diff_pct": 1.7,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "12": [
+      {
+        "actual": 1455,
+        "target": 1300,
+        "diff_pct": 11.92,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1570,
+        "target": 1300,
+        "diff_pct": 20.77,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1354,
+        "target": 1300,
+        "diff_pct": 4.15,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1459,
+        "target": 1300,
+        "diff_pct": 12.23,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1498,
+        "target": 1300,
+        "diff_pct": 15.23,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1502,
+        "target": 1300,
+        "diff_pct": 15.54,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1534,
+        "target": 1300,
+        "diff_pct": 18.0,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1456,
+        "target": 1300,
+        "diff_pct": 12.0,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "13": [
+      {
+        "actual": 1790,
+        "target": 1600,
+        "diff_pct": 11.88,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1684,
+        "target": 1600,
+        "diff_pct": 5.25,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1836,
+        "target": 1600,
+        "diff_pct": 14.75,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1761,
+        "target": 1600,
+        "diff_pct": 10.06,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 2070,
+        "target": 1600,
+        "diff_pct": 29.38,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1759,
+        "target": 1600,
+        "diff_pct": 9.94,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1856,
+        "target": 1600,
+        "diff_pct": 16.0,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1885,
+        "target": 1600,
+        "diff_pct": 17.81,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "14": [
+      {
+        "actual": 1690,
+        "target": 1400,
+        "diff_pct": 20.71,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1490,
+        "target": 1400,
+        "diff_pct": 6.43,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1490,
+        "target": 1400,
+        "diff_pct": 6.43,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1498,
+        "target": 1400,
+        "diff_pct": 7.0,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1537,
+        "target": 1400,
+        "diff_pct": 9.79,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1515,
+        "target": 1400,
+        "diff_pct": 8.21,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1446,
+        "target": 1400,
+        "diff_pct": 3.29,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1513,
+        "target": 1400,
+        "diff_pct": 8.07,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "15": [
+      {
+        "actual": 1072,
+        "target": 1200,
+        "diff_pct": -10.67,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1033,
+        "target": 1200,
+        "diff_pct": -13.92,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1185,
+        "target": 1200,
+        "diff_pct": -1.25,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1134,
+        "target": 1200,
+        "diff_pct": -5.5,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1037,
+        "target": 1200,
+        "diff_pct": -13.58,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1114,
+        "target": 1200,
+        "diff_pct": -7.17,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1208,
+        "target": 1200,
+        "diff_pct": 0.67,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1222,
+        "target": 1200,
+        "diff_pct": 1.83,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "16": [
+      {
+        "actual": 1736,
+        "target": 1500,
+        "diff_pct": 15.73,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1381,
+        "target": 1500,
+        "diff_pct": -7.93,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1514,
+        "target": 1500,
+        "diff_pct": 0.93,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1784,
+        "target": 1500,
+        "diff_pct": 18.93,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1564,
+        "target": 1500,
+        "diff_pct": 4.27,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1617,
+        "target": 1500,
+        "diff_pct": 7.8,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1630,
+        "target": 1500,
+        "diff_pct": 8.67,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1450,
+        "target": 1500,
+        "diff_pct": -3.33,
+        "pass": true,
+        "under": true
+      }
+    ],
+    "17": [
+      {
+        "actual": 1088,
+        "target": 1000,
+        "diff_pct": 8.8,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1136,
+        "target": 1000,
+        "diff_pct": 13.6,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1071,
+        "target": 1000,
+        "diff_pct": 7.1,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1105,
+        "target": 1000,
+        "diff_pct": 10.5,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1013,
+        "target": 1000,
+        "diff_pct": 1.3,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1069,
+        "target": 1000,
+        "diff_pct": 6.9,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1109,
+        "target": 1000,
+        "diff_pct": 10.9,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1169,
+        "target": 1000,
+        "diff_pct": 16.9,
+        "pass": false,
+        "under": false
+      }
+    ],
+    "18": [
+      {
+        "actual": 1246,
+        "target": 1300,
+        "diff_pct": -4.15,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1361,
+        "target": 1300,
+        "diff_pct": 4.69,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1282,
+        "target": 1300,
+        "diff_pct": -1.38,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1198,
+        "target": 1300,
+        "diff_pct": -7.85,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1312,
+        "target": 1300,
+        "diff_pct": 0.92,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1195,
+        "target": 1300,
+        "diff_pct": -8.08,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1291,
+        "target": 1300,
+        "diff_pct": -0.69,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1330,
+        "target": 1300,
+        "diff_pct": 2.31,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "19": [
+      {
+        "actual": 1365,
+        "target": 1300,
+        "diff_pct": 5.0,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1264,
+        "target": 1300,
+        "diff_pct": -2.77,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1394,
+        "target": 1300,
+        "diff_pct": 7.23,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1414,
+        "target": 1300,
+        "diff_pct": 8.77,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1543,
+        "target": 1300,
+        "diff_pct": 18.69,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1341,
+        "target": 1300,
+        "diff_pct": 3.15,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1506,
+        "target": 1300,
+        "diff_pct": 15.85,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1388,
+        "target": 1300,
+        "diff_pct": 6.77,
+        "pass": true,
+        "under": false
+      }
+    ],
+    "20": [
+      {
+        "actual": 1448,
+        "target": 1600,
+        "diff_pct": -9.5,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1418,
+        "target": 1600,
+        "diff_pct": -11.38,
+        "pass": false,
+        "under": true
+      },
+      {
+        "actual": 1767,
+        "target": 1600,
+        "diff_pct": 10.44,
+        "pass": false,
+        "under": false
+      },
+      {
+        "actual": 1567,
+        "target": 1600,
+        "diff_pct": -2.06,
+        "pass": true,
+        "under": true
+      },
+      {
+        "actual": 1601,
+        "target": 1600,
+        "diff_pct": 0.06,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1641,
+        "target": 1600,
+        "diff_pct": 2.56,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1713,
+        "target": 1600,
+        "diff_pct": 7.06,
+        "pass": true,
+        "under": false
+      },
+      {
+        "actual": 1870,
+        "target": 1600,
+        "diff_pct": 16.88,
+        "pass": false,
+        "under": false
+      }
+    ]
+  }
+}
