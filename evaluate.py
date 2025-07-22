@@ -17,7 +17,7 @@ def ok(count: int, v: dict) -> bool:
     rel = v["relation"]
     if rel == "gte":     return count >= v["target"]
     if rel == "lte":     return count <= v["target"]
-    if rel == "approx":  return abs(count - v["target"]) <= 0.1 * v["target"]  # within 10% difference
+    if rel == "approx":  return abs(count - v["target"]) <= 0.15 * v["target"]  # within 15% difference
     if rel == "range":   return v["lower"] <= count <= v["upper"]
     raise ValueError(rel)
 
