@@ -1,12 +1,12 @@
 import json, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
-DATA = ROOT / "data/position_test_1"   # your data directory
+DATA = ROOT / "data/number_test_2"   # your data directory
 PROMPTS_FILE = DATA / "prompts.jsonl"
 WORD_RE = re.compile(r"\b\w+\b")
 
 # ====== Set the number of tasks for your dataset ======
-task_N = 3   
+task_N = 2
 
 # Load prompt verifications
 with PROMPTS_FILE.open() as f:
@@ -59,10 +59,12 @@ def evaluate(model_key: str):
         task_hits = [[0, 0] for _ in range(task_N)]
         # Get task verification info
         verif_list = VERIF[pid]
+        if isinstance(verif_list, dict):
+            verif_list = [verif_list]
         # Loop over 8 samples for this prompt
         for text in samples:
             # split by exact "**********", strip spaces
-            splits = [seg.strip() for seg in text.split("**********")]
+            splits = [seg.strip() for seg in re.split(r"\s*[\*\uff0a]{6,}\s*", text)]
             if len(splits) != task_N:
                 skip_cnt += 1
                 continue  # skip abnormal sample
@@ -124,23 +126,8 @@ def evaluate(model_key: str):
     }
 
     # ===== Output: per your requirement (vertical, plain text style) =====
-    print("\nper_prompt:")
-    for x in per_prompt:
-        print(x)
     print("\noverall_accuracy:")
     print(overall_accuracy)
-    print("\nper_task:")
-    for row in per_task_rows:
-        print(" ".join(str(x) for x in row))
-    print("\noverall_per_task:")
-    print(" ".join(str(x) for x in overall_per_task))
-    print("\nper_relation:")
-    for rel in per_relation:
-        print(f"{rel}: {per_relation[rel]}")
-    print("\nper_prompt_skip:")
-    for x in per_prompt_skip:
-        print(x)
-
     # Optionally, also dump to json file for record
     res = {
         "per_prompt": per_prompt,
