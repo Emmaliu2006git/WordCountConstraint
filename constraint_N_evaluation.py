@@ -1,12 +1,12 @@
 import json, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
-DATA = ROOT / "data/number_test_2"   # your data directory
+DATA = ROOT / "data/number_test_1"   # your data directory
 PROMPTS_FILE = DATA / "prompts.jsonl"
 WORD_RE = re.compile(r"\b\w+\b")
 
 # ====== Set the number of tasks for your dataset ======
-task_N = 2
+task_N = 1
 
 # Load prompt verifications
 with PROMPTS_FILE.open() as f:
