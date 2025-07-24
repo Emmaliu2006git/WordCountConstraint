@@ -6,7 +6,7 @@ PROMPTS_FILE = DATA / "prompts.jsonl"
 WORD_RE = re.compile(r"\b\w+\b")
 
 # ====== Set the number of tasks for your dataset ======
-task_N = 1
+task_N = 2
 
 # Load prompt verifications
 with PROMPTS_FILE.open() as f:
