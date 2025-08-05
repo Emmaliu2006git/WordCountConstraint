@@ -1,0 +1,20 @@
+{"prompt_id": 1, "prompt": "Write approximately 1000 words about your hometown and how it has changed.", "verification": {"relation": "approx", "target": 1000}}
+{"prompt_id": 2, "prompt": "Write about 1200 words on the importance of financial literacy.", "verification": {"relation": "approx", "target": 1200}}
+{"prompt_id": 3, "prompt": "Write a text no more than 1400 words describing a meaningful tradition in your culture.", "verification": {"relation": "lte", "target": 1400}}
+{"prompt_id": 4, "prompt": "Write a story of at least 1000 words about a surprising journey.", "verification": {"relation": "gte", "target": 1000}}
+{"prompt_id": 5, "prompt": "Write approximately 900 words on how failure teaches resilience.", "verification": {"relation": "approx", "target": 900}}
+{"prompt_id": 6, "prompt": "Write about 1600 words describing a conflict and how it was resolved.", "verification": {"relation": "approx", "target": 1600}}
+{"prompt_id": 7, "prompt": "Write a personal essay with at least 850 words about a time you took a risk.", "verification": {"relation": "gte", "target": 850}}
+{"prompt_id": 8, "prompt": "Write a piece of at most 1000 words exploring a personal belief that changed.", "verification": {"relation": "lte", "target": 1000}}
+{"prompt_id": 9, "prompt": "Write between 1000 and 1500 words about your favorite place and why it matters to you.", "verification": {"relation": "range", "lower": 1000, "upper": 1500}}
+{"prompt_id": 10, "prompt": "Write approximately 1100 words about the role of kindness in society.", "verification": {"relation": "approx", "target": 1100}}
+{"prompt_id": 11, "prompt": "Write about 1400 words describing a personal transformation.", "verification": {"relation": "approx", "target": 1400}}
+{"prompt_id": 12, "prompt": "Write no more than 900 words describing a technological innovation you admire.", "verification": {"relation": "lte", "target": 900}}
+{"prompt_id": 13, "prompt": "Write a narrative with at least 1200 words about achieving something difficult.", "verification": {"relation": "gte", "target": 1200}}
+{"prompt_id": 14, "prompt": "Write between 900 and 1300 words on the influence of a mentor.", "verification": {"relation": "range", "lower": 900, "upper": 1300}}
+{"prompt_id": 15, "prompt": "Write approximately 800 words on how art can inspire change.", "verification": {"relation": "approx", "target": 800}}
+{"prompt_id": 16, "prompt": "Write at least 1000 words describing a childhood adventure.", "verification": {"relation": "gte", "target": 1000}}
+{"prompt_id": 17, "prompt": "Write a personal account of no more than 1200 words reflecting on identity.", "verification": {"relation": "lte", "target": 1200}}
+{"prompt_id": 18, "prompt": "Write between 1000 and 1800 words about environmental responsibility.", "verification": {"relation": "range", "lower": 1000, "upper": 1800}}
+{"prompt_id": 19, "prompt": "Write about 1000 words on how imagination shapes the future.", "verification": {"relation": "approx", "target": 1000}}
+{"prompt_id": 20, "prompt": "Write a story of at least 900 words involving an unexpected visitor.", "verification": {"relation": "gte", "target": 900}}
