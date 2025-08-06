@@ -4,7 +4,7 @@ import json, re, sys, pathlib
 # Setup paths and constants
 # ---------------------------------------------
 ROOT = pathlib.Path(__file__).resolve().parent
-DATA = ROOT / "data/format_test_1"
+DATA = ROOT / "data/position_test_3"
 PROMPTS_FILE = DATA / "prompts.jsonl"
 WORD_RE = re.compile(r"\b\w+\b")
 
