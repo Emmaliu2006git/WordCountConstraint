@@ -26,8 +26,8 @@ together_client = OpenAI(
 # ---------------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "data/position_test_1"
-PROMPTS_FILE = DATA_DIR / "prompts.jsonl"
+DATA_DIR = ROOT
+PROMPTS_FILE = DATA_DIR / "prompts_complete.jsonl"
 
 # Sampling settings
 number_of_samples = 8  # 8 outputs per prompt per model
