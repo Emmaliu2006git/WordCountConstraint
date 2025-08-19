@@ -49,11 +49,12 @@ SYSTEM_PROMPT = "You are an AI model that strictly follows user instructions. Do
 # ---------------------------------------------------------------------------
 
 def load_prompts(path: Path):
-    """Load prompts from a JSONL file."""
+    """Load prompts from a JSONL file and add prompt_id automatically."""
     prompts_list = []
     with path.open("r", encoding="utf-8") as f:
-        for line in f:
+        for idx, line in enumerate(f, start=1):  # starting from 1
             prompt_dict = json.loads(line)
+            prompt_dict["prompt_id"] = idx
             prompts_list.append(prompt_dict)
     return prompts_list
 
