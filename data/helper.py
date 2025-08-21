@@ -20,7 +20,7 @@ def check_keyword_frequency(text: str, v: dict) -> bool:
 #3
 def check_placeholder_count(text: str, v: dict) -> bool:
     # v: {"token": "[CITATION]", "target": 3}
-    token = re.escape(v["token"])
+    token = re.escape(v["tokens"])
     # match either plain [TOKEN] or bold **[TOKEN]**
     pattern = rf"(\*\*{token}\*\*|{token})"
     count = len(re.findall(pattern, text))
@@ -171,6 +171,7 @@ def check_language_enforcement(text: str, v: dict) -> bool:
         "Japanese": "ja",
         "Korean": "ko",
         "Spanish": "es",
+	"Italian": "it",
     }
 
     target = v["target"]
@@ -192,5 +193,3 @@ def check_quotation_wrapping(text: str, v: dict) -> bool:
     elif v["mark"] == "double":
         return '"' in text and "'" not in text
     return False
-
-

@@ -1,0 +1,1068 @@
+{
+  "model_level": {
+    "dual_satisfaction_rate": 0.48125,
+    "numerical_satisfaction_rate": 0.77109375,
+    "additional_satisfaction_rate": 0.59453125,
+    "overall_accuracy": 0.6828125
+  },
+  "constraint_type": {
+    "Word Count + Letter Frequency": {
+      "dual_satisfaction_rate": 0.725,
+      "numerical_satisfaction_rate": 0.825,
+      "additional_satisfaction_rate": 0.8,
+      "performance_accuracy": 0.8125
+    },
+    "Word Count + Keyword Frequency": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.9,
+      "additional_satisfaction_rate": 0.25,
+      "performance_accuracy": 0.575
+    },
+    "Word Count + Placeholder Count": {
+      "dual_satisfaction_rate": 0.525,
+      "numerical_satisfaction_rate": 0.775,
+      "additional_satisfaction_rate": 0.575,
+      "performance_accuracy": 0.675
+    },
+    "Word Count + Bullet-Point Count": {
+      "dual_satisfaction_rate": 0.1625,
+      "numerical_satisfaction_rate": 0.725,
+      "additional_satisfaction_rate": 0.175,
+      "performance_accuracy": 0.45
+    },
+    "Word Count + Required Keywords": {
+      "dual_satisfaction_rate": 0.7875,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.9125,
+      "performance_accuracy": 0.89375
+    },
+    "Word Count + Forbidden Words": {
+      "dual_satisfaction_rate": 0.85,
+      "numerical_satisfaction_rate": 0.85,
+      "additional_satisfaction_rate": 1.0,
+      "performance_accuracy": 0.925
+    },
+    "Word Count + Must-Mention Placeholders": {
+      "dual_satisfaction_rate": 0.6,
+      "numerical_satisfaction_rate": 0.7625,
+      "additional_satisfaction_rate": 0.8,
+      "performance_accuracy": 0.78125
+    },
+    "Word Count + Paragraph First-Word": {
+      "dual_satisfaction_rate": 0.2,
+      "numerical_satisfaction_rate": 0.8,
+      "additional_satisfaction_rate": 0.2375,
+      "performance_accuracy": 0.51875
+    },
+    "Word Count + Section Progression": {
+      "dual_satisfaction_rate": 0.1125,
+      "numerical_satisfaction_rate": 0.3,
+      "additional_satisfaction_rate": 0.2125,
+      "performance_accuracy": 0.25625
+    },
+    "Word Count + List Structure": {
+      "dual_satisfaction_rate": 0.2875,
+      "numerical_satisfaction_rate": 0.825,
+      "additional_satisfaction_rate": 0.325,
+      "performance_accuracy": 0.575
+    },
+    "Word Count + Multiple Responses": {
+      "dual_satisfaction_rate": 0.1625,
+      "numerical_satisfaction_rate": 0.7875,
+      "additional_satisfaction_rate": 0.1625,
+      "performance_accuracy": 0.475
+    },
+    "Word Count + Title Placement": {
+      "dual_satisfaction_rate": 0.8,
+      "numerical_satisfaction_rate": 0.8,
+      "additional_satisfaction_rate": 1.0,
+      "performance_accuracy": 0.9
+    },
+    "Word Count + Case Enforcement": {
+      "dual_satisfaction_rate": 0.675,
+      "numerical_satisfaction_rate": 0.7,
+      "additional_satisfaction_rate": 0.975,
+      "performance_accuracy": 0.8375
+    },
+    "Word Count + Language Enforcement": {
+      "dual_satisfaction_rate": 0.7,
+      "numerical_satisfaction_rate": 0.7,
+      "additional_satisfaction_rate": 1.0,
+      "performance_accuracy": 0.85
+    },
+    "Word Count + Punctuation Restrictions": {
+      "dual_satisfaction_rate": 0.575,
+      "numerical_satisfaction_rate": 0.8125,
+      "additional_satisfaction_rate": 0.7625,
+      "performance_accuracy": 0.7875
+    },
+    "Word Count + Quotation Wrapping": {
+      "dual_satisfaction_rate": 0.2875,
+      "numerical_satisfaction_rate": 0.9,
+      "additional_satisfaction_rate": 0.325,
+      "performance_accuracy": 0.6125
+    }
+  },
+  "detail": {
+    "1": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "2": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "3": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.375,
+      "per_prompt_accuracy": 0.625
+    },
+    "4": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.4375
+    },
+    "5": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.25,
+      "per_prompt_accuracy": 0.625
+    },
+    "6": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "7": {
+      "dual_satisfaction_rate": 0.75,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.875
+    },
+    "8": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.9375
+    },
+    "9": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "10": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 0.625,
+      "per_prompt_accuracy": 0.6875
+    },
+    "11": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.4375
+    },
+    "12": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.9375
+    },
+    "13": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "14": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "15": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.375,
+      "per_prompt_accuracy": 0.6875
+    },
+    "16": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.25,
+      "per_prompt_accuracy": 0.5625
+    },
+    "17": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "18": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.25,
+      "per_prompt_accuracy": 0.625
+    },
+    "19": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "20": {
+      "dual_satisfaction_rate": 0.75,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.75,
+      "per_prompt_accuracy": 0.875
+    },
+    "21": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.9375
+    },
+    "22": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "23": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.5,
+      "per_prompt_accuracy": 0.75
+    },
+    "24": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "25": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.25,
+      "per_prompt_accuracy": 0.625
+    },
+    "26": {
+      "dual_satisfaction_rate": 0.75,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.75,
+      "per_prompt_accuracy": 0.875
+    },
+    "27": {
+      "dual_satisfaction_rate": 0.625,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.625,
+      "per_prompt_accuracy": 0.8125
+    },
+    "28": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "29": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "30": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "31": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.9375
+    },
+    "32": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "33": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.9375
+    },
+    "34": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "35": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.9375
+    },
+    "36": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.375
+    },
+    "37": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "38": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "39": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "40": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "41": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "42": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "43": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "44": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "45": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.9375
+    },
+    "46": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "47": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.5,
+      "per_prompt_accuracy": 0.75
+    },
+    "48": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.625,
+      "per_prompt_accuracy": 0.75
+    },
+    "49": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.9375
+    },
+    "50": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "51": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.4375
+    },
+    "52": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.375,
+      "per_prompt_accuracy": 0.6875
+    },
+    "53": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.9375
+    },
+    "54": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "55": {
+      "dual_satisfaction_rate": 0.75,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.875
+    },
+    "56": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 0.375,
+      "additional_satisfaction_rate": 0.5,
+      "per_prompt_accuracy": 0.4375
+    },
+    "57": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "58": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "59": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.125,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0625
+    },
+    "60": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "61": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.375,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.625
+    },
+    "62": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "63": {
+      "dual_satisfaction_rate": 0.625,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.75,
+      "per_prompt_accuracy": 0.8125
+    },
+    "64": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.25,
+      "per_prompt_accuracy": 0.5625
+    },
+    "65": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "66": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "67": {
+      "dual_satisfaction_rate": 0.75,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.75,
+      "per_prompt_accuracy": 0.875
+    },
+    "68": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 0.25,
+      "per_prompt_accuracy": 0.5
+    },
+    "69": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "70": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "71": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "72": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "73": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.9375
+    },
+    "74": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.5625
+    },
+    "75": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "76": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "77": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.9375
+    },
+    "78": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "79": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "80": {
+      "dual_satisfaction_rate": 0.625,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.625,
+      "per_prompt_accuracy": 0.8125
+    },
+    "81": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "82": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.75,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.375
+    },
+    "83": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.125,
+      "additional_satisfaction_rate": 0.375,
+      "per_prompt_accuracy": 0.25
+    },
+    "84": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.0625
+    },
+    "85": {
+      "dual_satisfaction_rate": 0.625,
+      "numerical_satisfaction_rate": 0.625,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.8125
+    },
+    "86": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 0.375,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.6875
+    },
+    "87": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 0.125,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.5625
+    },
+    "88": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.5,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.25
+    },
+    "89": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "90": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.125,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0625
+    },
+    "91": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "92": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "93": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 0.5,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.75
+    },
+    "94": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.25,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.625
+    },
+    "95": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.25,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.625
+    },
+    "96": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.5,
+      "per_prompt_accuracy": 0.6875
+    },
+    "97": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "98": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.5
+    },
+    "99": {
+      "dual_satisfaction_rate": 0.75,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.75,
+      "per_prompt_accuracy": 0.875
+    },
+    "100": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "101": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "102": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "103": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "104": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "105": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "106": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.5,
+      "per_prompt_accuracy": 0.75
+    },
+    "107": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "108": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "109": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "110": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "111": {
+      "dual_satisfaction_rate": 0.625,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.625,
+      "per_prompt_accuracy": 0.8125
+    },
+    "112": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.5625
+    },
+    "113": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 0.5,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.75
+    },
+    "114": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.375,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.1875
+    },
+    "115": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.0625
+    },
+    "116": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.125,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0625
+    },
+    "117": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.25,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.625
+    },
+    "118": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.25,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.625
+    },
+    "119": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.625,
+      "per_prompt_accuracy": 0.3125
+    },
+    "120": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.125,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0625
+    },
+    "121": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "122": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.375,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.25
+    },
+    "123": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "124": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 0.125,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.5625
+    },
+    "125": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.25,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.625
+    },
+    "126": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.25,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.625
+    },
+    "127": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "128": {
+      "dual_satisfaction_rate": 0.25,
+      "numerical_satisfaction_rate": 0.5,
+      "additional_satisfaction_rate": 0.375,
+      "per_prompt_accuracy": 0.4375
+    },
+    "129": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "130": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.5625
+    },
+    "131": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "132": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.4375
+    },
+    "133": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "134": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "135": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "136": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "137": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "138": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.5625
+    },
+    "139": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "140": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "141": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "142": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 0.5,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.75
+    },
+    "143": {
+      "dual_satisfaction_rate": 0.5,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.5,
+      "per_prompt_accuracy": 0.75
+    },
+    "144": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.375,
+      "per_prompt_accuracy": 0.6875
+    },
+    "145": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "146": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "147": {
+      "dual_satisfaction_rate": 0.375,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.375,
+      "per_prompt_accuracy": 0.6875
+    },
+    "148": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.5625
+    },
+    "149": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "150": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 0.9375
+    },
+    "151": {
+      "dual_satisfaction_rate": 0.875,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.875,
+      "per_prompt_accuracy": 0.9375
+    },
+    "152": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.5
+    },
+    "153": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.0,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.0
+    },
+    "154": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "155": {
+      "dual_satisfaction_rate": 0.0,
+      "numerical_satisfaction_rate": 0.875,
+      "additional_satisfaction_rate": 0.0,
+      "per_prompt_accuracy": 0.4375
+    },
+    "156": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "157": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "158": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "159": {
+      "dual_satisfaction_rate": 1.0,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 1.0,
+      "per_prompt_accuracy": 1.0
+    },
+    "160": {
+      "dual_satisfaction_rate": 0.125,
+      "numerical_satisfaction_rate": 1.0,
+      "additional_satisfaction_rate": 0.125,
+      "per_prompt_accuracy": 0.5625
+    }
+  }
+}

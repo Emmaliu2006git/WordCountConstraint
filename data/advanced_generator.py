@@ -5,6 +5,7 @@ import sys
 import concurrent.futures as cf
 from openai import OpenAI
 import os
+import argparse
 
 # ---------------------------------------------------------------------------
 # API Clients
@@ -38,8 +39,8 @@ MAX_TOKENS = 2800  # Approximately 2000 words
 # Model definitions and corresponding clients
 models = {
     "llama4scout": {"name": "meta-llama/Llama-4-Scout-17B-16E-Instruct", "client": together_client},
-    "deepseek-v3": {"name": "deepseek-ai/DeepSeek-V3",   "client": together_client},
-    "gpt-4.1":     {"name": "gpt-4.1-2025-04-14",        "client": openai_client}
+#    "deepseek-v3": {"name": "deepseek-ai/DeepSeek-V3",   "client": together_client},
+#    "gpt-4.1":     {"name": "gpt-4.1-2025-04-14",        "client": openai_client}
 }
 
 SYSTEM_PROMPT = "You are an AI model that strictly follows user instructions. Do not answer anything beyond the user's request."
@@ -86,10 +87,9 @@ def generate_samples(model_key: str, prompt_row: dict):
                 text = call_llm(models[model_key], prompt_row["prompt"])
                 break
             except Exception as e:
-                print(f"[{model_key}] pid {prompt_row.get('prompt_id')} err: {e}", file=sys.stderr)
+                print(f"[{model_key}] Prompt {prompt_row.get('prompt_id')} error: {e}", file=sys.stderr)
                 time.sleep(10)
-        print(f"[{model_key}] Generated Output for Prompt {prompt_row.get('prompt_id')} Sample {sid}")
-        # Ensure category and constraint are the first two keys in each record (insertion-ordered)
+        print(f"[{model_key}] Generated output for Prompt {prompt_row.get('prompt_id')} Sample {sid}")
         rec = {
             "category": prompt_row.get("category"),
             "constraint": prompt_row.get("constraint"),
@@ -101,32 +101,89 @@ def generate_samples(model_key: str, prompt_row: dict):
     return result
 
 def write_jsonl(path: Path, records):
-    """Append a list of records to a JSONL file (preserving key order)."""
+    """Append a list of records to a JSONL file (deduplicate by prompt_id+sample_id)."""
+    existing = set()
+    if path.exists():
+        with path.open("r", encoding="utf-8") as f:
+            for line in f:
+                try:
+                    rec = json.loads(line)
+                    existing.add((rec.get("prompt_id"), rec.get("sample_id")))
+                except:
+                    continue
+
     mode = "a" if path.exists() else "w"
     with path.open(mode, encoding="utf-8") as f:
         for rec in records:
+            key = (rec["prompt_id"], rec["sample_id"])
+            if key in existing:
+                continue
             json.dump(rec, f, ensure_ascii=False)
             f.write("\n")
+
+def get_resume_point(path: Path):
+    """Return the prompt_id to start from.
+       If the last prompt is incomplete, start from that prompt again.
+    """
+    if not path.exists():
+        return 1
+
+    last_prompt_id = 0
+    samples_seen = {}
+
+    with path.open("r", encoding="utf-8") as f:
+        for line in f:
+            try:
+                rec = json.loads(line)
+                pid = rec.get("prompt_id", 0)
+                sid = rec.get("sample_id", 0)
+                last_prompt_id = max(last_prompt_id, pid)
+                samples_seen.setdefault(pid, set()).add(sid)
+            except:
+                continue
+
+    if last_prompt_id == 0:
+        return 1
+
+    if len(samples_seen.get(last_prompt_id, [])) < number_of_samples:
+        return last_prompt_id
+    else:
+        return last_prompt_id + 1
 
 # ---------------------------------------------------------------------------
 # Main execution
 # ---------------------------------------------------------------------------
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--resume", action="store_true", help="Continue from last unfinished prompt")
+    args = parser.parse_args()
+
     prompts = load_prompts(PROMPTS_FILE)
 
     for mkey in models:
         out_file = DATA_DIR / f"{mkey}_outputs.jsonl"
-        if out_file.exists():
-            out_file.unlink()
 
-        print(f"==> Generating outputs with {mkey} ...")
+        if args.resume:
+            start_pid = get_resume_point(out_file)
+            if start_pid > len(prompts):
+                print(f"[{mkey}] All prompts are already completed. Skipping.")
+                continue
+            print(f"[{mkey}] Resume mode: starting from Prompt {start_pid}")
+            remaining_prompts = [p for p in prompts if p["prompt_id"] >= start_pid]
+        else:
+            if out_file.exists():
+                out_file.unlink()
+            print(f"[{mkey}] Fresh mode: starting from Prompt 1")
+            remaining_prompts = prompts
+
+        print(f"==> {mkey}: {len(remaining_prompts)} prompts to generate")
         with cf.ThreadPoolExecutor(max_workers=4) as pool:
-            futures = [pool.submit(generate_samples, mkey, p) for p in prompts]
+            futures = [pool.submit(generate_samples, mkey, p) for p in remaining_prompts]
             for task in futures:
                 write_jsonl(out_file, task.result())
 
-        print(f"Done, saved to {out_file}")
+        print(f"[{mkey}] Finished. Results saved to {out_file}")
 
 if __name__ == "__main__":
     main()
