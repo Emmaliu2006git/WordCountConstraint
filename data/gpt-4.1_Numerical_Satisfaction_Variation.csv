@@ -1,0 +1,56 @@
+Prompt Group,Metric,Value,Position (if applicable)
+Prompt 1,STD,0.3641,
+Prompt 1,Max Value,1.0,1
+Prompt 1,Min Value,0.0,9
+
+Prompt 2,STD,0.0,
+Prompt 2,Max Value,1.0,1
+Prompt 2,Min Value,1.0,1
+
+Prompt 3,STD,0.2429,
+Prompt 3,Max Value,1.0,2
+Prompt 3,Min Value,0.0,9
+
+Prompt 4,STD,0.3232,
+Prompt 4,Max Value,1.0,2
+Prompt 4,Min Value,0.0,9
+
+Prompt 5,STD,0.0605,
+Prompt 5,Max Value,1.0,1
+Prompt 5,Min Value,0.75,4
+
+Prompt 6,STD,0.2812,
+Prompt 6,Max Value,0.875,16
+Prompt 6,Min Value,0.0,1
+
+Prompt 7,STD,0.0303,
+Prompt 7,Max Value,1.0,1
+Prompt 7,Min Value,0.875,2
+
+Prompt 8,STD,0.2518,
+Prompt 8,Max Value,1.0,11
+Prompt 8,Min Value,0.0,3
+
+Prompt 9,STD,0.2623,
+Prompt 9,Max Value,1.0,1
+Prompt 9,Min Value,0.0,9
+
+Prompt 10,STD,0.2416,
+Prompt 10,Max Value,1.0,1
+Prompt 10,Min Value,0.0,9
+
+Summary
+Top 3 Max Positions
+Position 1,6 times
+Position 2,2 times
+Position 16,1 times
+
+Top 3 Min Positions
+Position 9,5 times
+Position 1,2 times
+Position 4,1 times
+
+Top 3 STD Groups
+Prompt 1,STD,0.3641
+Prompt 4,STD,0.3232
+Prompt 6,STD,0.2812
