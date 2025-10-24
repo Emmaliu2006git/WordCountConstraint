@@ -7,17 +7,17 @@ def parse_target(relation: str, target_str: str):
     return int(target_str)
 
 def hard_metric(relation: str, actual: int, target):
-    r = relation.lower()
-    if r == "range":
+    if relation == "range":
         lo, hi = target
-        return lo <= actual <= hi
-    if r == "gte":
-        return actual >= target
-    if r == "lte":
-        return actual <= target
-    if r == "approx":
-        t = int(target)
-        lo = round(0.9 * t)
-        hi = round(1.1 * t)
-        return lo <= actual <= hi
-    return False
+        return 1 if lo <= actual <= hi else 0
+    elif relation == "gte":
+        return 1 if actual >= target else 0
+    elif relation == "lte":
+        return 1 if actual <= target else 0
+    elif relation == "approx":
+        lo = round(0.9 * target)
+        hi = round(1.1 * target)
+        return 1 if lo <= actual <= hi else 0
+    else:
+        return 0
+
