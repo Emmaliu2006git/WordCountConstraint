@@ -39,9 +39,9 @@ PROMPTS_FILE = DATA_DIR / "segmented.jsonl"
 
 # Output params
 number_of_samples = 8
-TEMPERATURE = 1.0
-TOP_P = 1.0
-MAX_TOKENS = 2800  # ~2000 words
+TEMPERATURE = 0.6
+TOP_P = 0.95
+MAX_TOKENS = 8192  
 
 models = {
     "llama4scout": {"name": "meta-llama/Llama-4-Scout-17B-16E-Instruct", "client": together_client},
@@ -57,9 +57,7 @@ SYSTEM_PROMPT = (
     "Your output must strictly start with '#part 1' and contain only '#part <n>' headers followed by content—no preface or trailing notes."
 )
 
-# ---------------------------------------------------------------------------
-# Utilities
-# ---------------------------------------------------------------------------
+
 
 def load_prompts(path: Path):
     out = []
@@ -68,6 +66,7 @@ def load_prompts(path: Path):
             if line.strip():
                 out.append(json.loads(line))
     return out
+
 
 def call_llm(model_info: dict, prompt_text: str) -> str:
     client = model_info["client"]
