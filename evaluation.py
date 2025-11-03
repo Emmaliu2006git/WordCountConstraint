@@ -9,6 +9,7 @@ import re
 
 # constants declaration
 DATA_DIR = pathlib.Path("data")
+OUTDIR = pathlib.Path("eval")
 
 MODEL_FILES = [
     DATA_DIR / "deepseek-v3_output.jsonl",
@@ -16,7 +17,6 @@ MODEL_FILES = [
     DATA_DIR / "llama4scout_output.jsonl",
 ]
 
-OUTDIR = DATA_DIR
 
 LEVEL_COUNTERS = {
     "word": word_count,

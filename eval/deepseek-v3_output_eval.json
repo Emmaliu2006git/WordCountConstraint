@@ -1,0 +1,6854 @@
+{
+  "model": "deepseek-v3_output",
+  "prompt_accuracy": {
+    "1": {
+      "hard": 0.1
+    },
+    "2": {
+      "hard": 0.0
+    },
+    "3": {
+      "hard": 0.03125
+    },
+    "4": {
+      "hard": 0.5
+    },
+    "5": {
+      "hard": 0.45
+    },
+    "6": {
+      "hard": 0.0
+    },
+    "7": {
+      "hard": 0.0
+    },
+    "8": {
+      "hard": 0.0
+    },
+    "9": {
+      "hard": 0.0
+    },
+    "10": {
+      "hard": 0.25
+    },
+    "11": {
+      "hard": 0.3333333333333333
+    },
+    "12": {
+      "hard": 0.3333333333333333
+    },
+    "13": {
+      "hard": 0.0
+    },
+    "14": {
+      "hard": 0.17500000000000002
+    },
+    "15": {
+      "hard": 0.6666666666666666
+    },
+    "16": {
+      "hard": 1.0
+    },
+    "17": {
+      "hard": 0.29166666666666663
+    },
+    "18": {
+      "hard": 0.6666666666666666
+    },
+    "19": {
+      "hard": 0.125
+    },
+    "20": {
+      "hard": 0.3125
+    }
+  },
+  "model_accuracy": {
+    "hard": 0.26177083333333334
+  },
+  "per_output_records": [
+    {
+      "prompt_id": 1,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 278,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 16,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 185,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 130,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 146,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 249,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 16,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 157,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 114,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 132,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 258,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 2,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 152,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 129,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 125,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 263,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 16,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 174,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 131,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 135,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 268,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 16,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 194,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 149,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 167,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 259,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 2,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 148,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 136,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 125,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 275,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 2,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 206,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 196,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 179,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "450-600",
+          "measured": 236,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "gte",
+          "target": "15",
+          "measured": 2,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 142,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 143,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 137,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 128,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 137,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 122,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 145,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 135,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 131,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 131,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 121,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 140,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 143,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 130,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 138,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 146,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 165,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 140,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 164,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 133,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 128,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 123,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 149,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 140,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 140,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 137,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 151,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 132,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 138,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 128,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 158,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 143,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 136,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 135,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 135,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 191,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 230,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 113,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 89,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 176,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 229,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 89,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 103,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 192,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 230,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 124,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 138,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 178,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 191,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 94,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 105,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 162,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 175,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 81,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 85,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 187,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 237,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 86,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 99,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.25
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 210,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 260,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 102,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 112,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 184,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 178,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 95,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 100,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 252,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 9,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 4,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 123,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 266,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 9,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 6,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 128,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 301,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 9,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 6,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 113,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 328,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 9,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 7,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 144,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 295,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 10,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 7,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 142,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 287,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 9,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 7,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 154,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 302,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 9,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 6,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 124,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 278,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "8-10",
+          "measured": 9,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "3-4",
+          "measured": 4,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "5-6",
+          "measured": 6,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 117,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 20,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 28,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 10,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 18,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 6,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 20,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 32,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 12,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 24,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 8,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.8
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 24,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 32,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 16,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 24,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 12,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 20,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 30,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 12,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 16,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 6,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 21,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 30,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 12,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 22,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 8,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 20,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 32,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 12,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 20,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 8,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 21,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 26,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 14,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 23,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 10,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "20-25",
+          "measured": 22,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-35",
+          "measured": 32,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 12,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 18,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "line",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 10,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 262,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 106,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 268,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 244,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 108,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 326,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 252,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 77,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 209,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 263,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 121,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 223,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 261,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 120,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 183,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 253,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 111,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 289,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 298,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 112,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 320,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "1800-2200",
+          "measured": 245,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "200-250",
+          "measured": 134,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "2700-3600",
+          "measured": 135,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 276,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 333,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 337,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 248,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 283,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 260,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 265,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 337,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 305,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 214,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 283,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 213,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 214,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 319,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 284,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 248,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 337,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 268,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 262,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 338,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 201,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 282,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 328,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 298,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 193,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 156,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 107,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 91,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 252,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 175,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 133,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 115,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 255,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 182,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 141,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 111,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 260,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 239,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 167,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 129,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 217,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 172,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 141,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 107,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 217,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 124,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 101,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 89,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 271,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 203,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 134,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 128,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 191,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 133,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-700",
+          "measured": 99,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 104,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 345,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 377,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 324,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 382,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 414,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 305,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 326,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 361,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 292,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 331,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 416,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 301,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 323,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 341,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 291,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 384,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 470,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 286,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 326,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 368,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 310,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 307,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 354,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-700",
+          "measured": 281,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 520,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 282,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 400,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 250,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 530,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 350,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 468,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 330,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 449,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 300,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 486,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 280,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 534,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 251,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 535,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 344,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 243,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 351,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 13,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 236,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 347,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 265,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 290,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 254,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 314,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 305,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 347,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 250,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 320,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 255,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 317,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 222,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "750-1000",
+          "measured": 318,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 378,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 454,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 217,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 397,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 533,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 166,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 391,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 387,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 216,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 315,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 285,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 143,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 349,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 448,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 134,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 384,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 423,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 189,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 275,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 350,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 120,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "600-800",
+          "measured": 297,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "1200-1500",
+          "measured": 474,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "500",
+          "measured": 118,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 181,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 183,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 171,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 139,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 168,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 192,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 135,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 130,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 184,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 218,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 157,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 170,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 210,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 199,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 147,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 110,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 192,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 165,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 121,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 120,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 180,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 193,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 167,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 141,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 178,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 163,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 123,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 136,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 147,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 187,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 148,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "approx",
+          "target": "350",
+          "measured": 123,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 160,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 176,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 164,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 120,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 68,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 172,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 251,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 276,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 172,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 125,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 164,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 179,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 192,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 134,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 86,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.4
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 162,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 193,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 228,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 142,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 113,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 121,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 164,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 189,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 112,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 83,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 148,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 170,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 212,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 117,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 90,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.2
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 153,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 163,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 147,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 136,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 90,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "150-200",
+          "measured": 139,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 167,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 189,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "4": {
+          "level": "word",
+          "relation": "range",
+          "target": "250-300",
+          "measured": 158,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "5": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 96,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 220,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 10,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 90,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 231,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 13,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 106,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 227,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 11,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 102,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 215,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 13,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 119,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 209,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 11,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 105,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 220,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 12,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 86,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 220,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 13,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 93,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 215,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "10-15",
+          "measured": 13,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "200",
+          "measured": 88,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 1,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 2,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 3,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 4,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 5,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 6,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 7,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 8,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "4": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "5": {
+          "level": "paragraph",
+          "relation": "range",
+          "target": "2-4",
+          "measured": 2,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 30,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 21,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 11,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 30,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 24,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 10,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 25,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 22,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 17,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 24,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 20,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 13,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 28,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 23,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 14,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 28,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 22,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 13,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 7,
+      "pass": 1,
+      "sample_scores": {
+        "hard": 1.0
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 33,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 25,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "line",
+          "relation": "range",
+          "target": "30-40",
+          "measured": 29,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "line",
+          "relation": "range",
+          "target": "25-30",
+          "measured": 21,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "line",
+          "relation": "range",
+          "target": "15-20",
+          "measured": 15,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 138,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 242,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 109,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 152,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 254,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 117,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 191,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 250,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 132,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 164,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 209,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 122,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 170,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 296,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 123,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 140,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 246,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 102,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 200,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 273,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 138,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.6666666666666666
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "lte",
+          "target": "400",
+          "measured": 141,
+          "scores": {
+            "hard": 1.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "800-1000",
+          "measured": 241,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "lte",
+          "target": "350",
+          "measured": 118,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 162,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 215,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 179,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 156,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 267,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 210,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 161,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 239,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 124,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 160,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 194,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 196,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 173,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 241,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 125,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 161,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 203,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 171,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 171,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 226,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 236,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.3333333333333333
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "100-150",
+          "measured": 176,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "400-500",
+          "measured": 228,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "3": {
+          "level": "word",
+          "relation": "gte",
+          "target": "200",
+          "measured": 229,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 1,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 351,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 258,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 2,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 396,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 324,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 3,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 405,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 322,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 4,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 374,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 310,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 5,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 433,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 353,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 6,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.5
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 429,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 371,
+          "scores": {
+            "hard": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 7,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 405,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 267,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 8,
+      "pass": 0,
+      "sample_scores": {
+        "hard": 0.0
+      },
+      "part_results": {
+        "1": {
+          "level": "word",
+          "relation": "range",
+          "target": "500-600",
+          "measured": 369,
+          "scores": {
+            "hard": 0.0
+          }
+        },
+        "2": {
+          "level": "word",
+          "relation": "range",
+          "target": "300-400",
+          "measured": 262,
+          "scores": {
+            "hard": 0.0
+          }
+        }
+      }
+    }
+  ]
+}
