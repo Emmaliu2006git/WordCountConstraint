@@ -80,6 +80,7 @@ def verify_output(content: str, vtag: dict):
     parts = slice_parts(content)
     part_results = {}
     metric_bins = {"hard": []}
+    # iterate through the parts
     for k in range(1, exp_n + 1):
         spec = vtag[str(k)]
         level = spec["level"]
@@ -87,6 +88,7 @@ def verify_output(content: str, vtag: dict):
         target_raw = spec["target"]
         actual = measure(level, parts[k])
         target = parse_target(relation, target_raw)
+        # score of one part
         scores = part_scores(relation, actual, target)
         for key, val in scores.items():
             metric_bins[key].append(val)
@@ -98,8 +100,8 @@ def verify_output(content: str, vtag: dict):
             "scores": scores
         }
 
-    sample_scores = {k: statistics.mean(v) if v else 0.0 for k, v in metric_bins.items()}
-    output_pass = sample_scores["hard"] == 1.0
+    sample_scores = {k: statistics.mean(v) if v else 0.0 for k, v in metric_bins.items()}   # output score
+    output_pass = sample_scores["hard"] == 1.0  # output pass
 
     return {
         "part_results": part_results,
@@ -109,19 +111,26 @@ def verify_output(content: str, vtag: dict):
 
 
 def evaluate_model_file(model_jsonl: pathlib.Path):
-    """Evaluate all outputs from one model file."""
     model_name = model_jsonl.stem
     per_prompt = load_model_outputs(model_jsonl)
-    prompt_acc = {}
+    prompt_pass_rate = {}
+    prompt_accuracy = {}
     per_output = []
-
+    # for a single prompt
     for pid, records in per_prompt.items():
         metric_sums = {"hard": []}
         vtag = records[0]["verification"]
 
+        total_outputs = len(records)
+        pass_outputs = 0
+        # for a single output
         for j, obj in enumerate(records, start=1):
             content = obj["output"]
             res = verify_output(content, vtag)
+
+            if res["output_pass"]:
+                pass_outputs += 1
+
             per_output.append({
                 "prompt_id": pid,
                 "output_idx": j,
@@ -129,23 +138,33 @@ def evaluate_model_file(model_jsonl: pathlib.Path):
                 "sample_scores": res["sample_scores"],
                 "part_results": res["part_results"]
             })
+
             for metric, val in res["sample_scores"].items():
                 metric_sums.setdefault(metric, []).append(val)
 
-        prompt_acc[pid] = {m: statistics.mean(v) if v else 0.0 for m, v in metric_sums.items()}
+        prompt_pass_rate[pid] = pass_outputs / total_outputs if total_outputs else 0.0
+        prompt_accuracy[pid] = {
+            m: statistics.mean(v) if v else 0.0 for m, v in metric_sums.items()
+        }
 
     model_accuracy = {
-        metric: statistics.mean([v[metric] for v in prompt_acc.values()])
-        if prompt_acc else 0.0
+        metric: statistics.mean([v[metric] for v in prompt_accuracy.values()])
+        if prompt_accuracy else 0.0
         for metric in metric_sums
     }
+    model_accuracy["prompt_pass_rate"] = statistics.mean(
+        [v for v in prompt_pass_rate.values()]
+    ) if prompt_pass_rate else 0.0
 
     return {
         "model": model_name,
-        "prompt_accuracy": prompt_acc,
+        "prompt_pass_rate": prompt_pass_rate,
+        "prompt_accuracy": prompt_accuracy,
         "model_accuracy": model_accuracy,
         "per_output_records": per_output
     }
+
+
 
 
 # ---------------------------------------------------------------------
