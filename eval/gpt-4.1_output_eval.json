@@ -13,7 +13,7 @@
     "10": 0.0,
     "11": 0.5,
     "12": 0.0,
-    "13": 0.25,
+    "13": 0.125,
     "14": 0.0,
     "15": 0.0,
     "16": 1.0,
@@ -60,7 +60,7 @@
       "hard": 0.6666666666666666
     },
     "13": {
-      "hard": 0.78125
+      "hard": 0.625
     },
     "14": {
       "hard": 0.5
@@ -85,8 +85,8 @@
     }
   },
   "model_accuracy": {
-    "hard": 0.5841666666666666,
-    "prompt_pass_rate": 0.15625
+    "hard": 0.5763541666666666,
+    "prompt_pass_rate": 0.15
   },
   "per_output_records": [
     {
@@ -4222,7 +4222,7 @@
       "output_idx": 1,
       "pass": 0,
       "sample_scores": {
-        "hard": 0.75
+        "hard": 0.5
       },
       "part_results": {
         "1": {
@@ -4258,7 +4258,7 @@
           "target": "350",
           "measured": 317,
           "scores": {
-            "hard": 1.0
+            "hard": 0.0
           }
         }
       }
@@ -4268,7 +4268,7 @@
       "output_idx": 2,
       "pass": 0,
       "sample_scores": {
-        "hard": 0.75
+        "hard": 0.5
       },
       "part_results": {
         "1": {
@@ -4304,7 +4304,7 @@
           "target": "350",
           "measured": 328,
           "scores": {
-            "hard": 1.0
+            "hard": 0.0
           }
         }
       }
@@ -4312,9 +4312,9 @@
     {
       "prompt_id": 13,
       "output_idx": 3,
-      "pass": 1,
+      "pass": 0,
       "sample_scores": {
-        "hard": 1.0
+        "hard": 0.75
       },
       "part_results": {
         "1": {
@@ -4350,7 +4350,7 @@
           "target": "350",
           "measured": 328,
           "scores": {
-            "hard": 1.0
+            "hard": 0.0
           }
         }
       }
@@ -4360,7 +4360,7 @@
       "output_idx": 4,
       "pass": 0,
       "sample_scores": {
-        "hard": 0.75
+        "hard": 0.5
       },
       "part_results": {
         "1": {
@@ -4396,7 +4396,7 @@
           "target": "350",
           "measured": 318,
           "scores": {
-            "hard": 1.0
+            "hard": 0.0
           }
         }
       }
@@ -4452,7 +4452,7 @@
       "output_idx": 6,
       "pass": 0,
       "sample_scores": {
-        "hard": 0.75
+        "hard": 0.5
       },
       "part_results": {
         "1": {
@@ -4488,7 +4488,7 @@
           "target": "350",
           "measured": 321,
           "scores": {
-            "hard": 1.0
+            "hard": 0.0
           }
         }
       }

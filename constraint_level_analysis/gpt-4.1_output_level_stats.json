@@ -1,0 +1,362 @@
+{
+  "model": "gpt-4.1_output_eval.json",
+  "per_prompt": {
+    "1": {
+      "word": {
+        "avg": 0.6875,
+        "pass": 22,
+        "total": 32
+      },
+      "paragraph": {
+        "avg": 1.0,
+        "pass": 8,
+        "total": 8
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "2": {
+      "word": {
+        "avg": 0.34375,
+        "pass": 11,
+        "total": 32
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "3": {
+      "word": {
+        "avg": 0.46875,
+        "pass": 15,
+        "total": 32
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "4": {
+      "word": {
+        "avg": 0.6875,
+        "pass": 11,
+        "total": 16
+      },
+      "paragraph": {
+        "avg": 0.3333333333333333,
+        "pass": 8,
+        "total": 24
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "5": {
+      "word": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.75,
+        "pass": 30,
+        "total": 40
+      }
+    },
+    "6": {
+      "word": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 24
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "7": {
+      "word": {
+        "avg": 0.4166666666666667,
+        "pass": 10,
+        "total": 24
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "8": {
+      "word": {
+        "avg": 0.65625,
+        "pass": 21,
+        "total": 32
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "9": {
+      "word": {
+        "avg": 0.5,
+        "pass": 12,
+        "total": 24
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "10": {
+      "word": {
+        "avg": 0.3125,
+        "pass": 5,
+        "total": 16
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "11": {
+      "word": {
+        "avg": 0.75,
+        "pass": 12,
+        "total": 16
+      },
+      "paragraph": {
+        "avg": 1.0,
+        "pass": 8,
+        "total": 8
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "12": {
+      "word": {
+        "avg": 0.6666666666666666,
+        "pass": 16,
+        "total": 24
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "13": {
+      "word": {
+        "avg": 0.78125,
+        "pass": 25,
+        "total": 32
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "14": {
+      "word": {
+        "avg": 0.5,
+        "pass": 20,
+        "total": 40
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "15": {
+      "word": {
+        "avg": 0.5,
+        "pass": 8,
+        "total": 16
+      },
+      "paragraph": {
+        "avg": 1.0,
+        "pass": 8,
+        "total": 8
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "16": {
+      "word": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "paragraph": {
+        "avg": 1.0,
+        "pass": 40,
+        "total": 40
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "17": {
+      "word": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.5833333333333334,
+        "pass": 14,
+        "total": 24
+      }
+    },
+    "18": {
+      "word": {
+        "avg": 0.6666666666666666,
+        "pass": 16,
+        "total": 24
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "19": {
+      "word": {
+        "avg": 0.375,
+        "pass": 9,
+        "total": 24
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "20": {
+      "word": {
+        "avg": 0.9375,
+        "pass": 15,
+        "total": 16
+      },
+      "paragraph": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "line": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    }
+  },
+  "global": {
+    "word": {
+      "avg": 0.5377358490566038,
+      "pass": 228,
+      "total": 424
+    },
+    "paragraph": {
+      "avg": 0.8181818181818182,
+      "pass": 72,
+      "total": 88
+    },
+    "line": {
+      "avg": 0.6875,
+      "pass": 44,
+      "total": 64
+    }
+  }
+}

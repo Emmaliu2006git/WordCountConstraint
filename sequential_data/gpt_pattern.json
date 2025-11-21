@@ -1,0 +1,39 @@
+{
+  "alternating_prompts": [
+    "2",
+    "8",
+    "9"
+  ],
+  "monotonic_increasing_prompts": [
+    "15",
+    "20"
+  ],
+  "monotonic_decreasing_prompts": [
+    "7",
+    "10"
+  ],
+  "flat_prompts": [
+    "6",
+    "16"
+  ],
+  "other_prompts": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "11",
+    "12",
+    "13",
+    "14",
+    "17",
+    "18",
+    "19"
+  ],
+  "counts": {
+    "alternating": 3,
+    "monotonic_increasing": 2,
+    "monotonic_decreasing": 2,
+    "flat": 2,
+    "other": 11
+  }
+}

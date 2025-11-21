@@ -1,0 +1,467 @@
+{
+  "model": "gpt-4.1_output_eval.json",
+  "per_prompt": {
+    "1": {
+      "range": {
+        "avg": 0.6875,
+        "pass": 22,
+        "total": 32
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 1.0,
+        "pass": 8,
+        "total": 8
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "2": {
+      "range": {
+        "avg": 0.34375,
+        "pass": 11,
+        "total": 32
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "3": {
+      "range": {
+        "avg": 0.46875,
+        "pass": 15,
+        "total": 32
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "4": {
+      "range": {
+        "avg": 0.475,
+        "pass": 19,
+        "total": 40
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "5": {
+      "range": {
+        "avg": 0.75,
+        "pass": 30,
+        "total": 40
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "6": {
+      "range": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 24
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "7": {
+      "range": {
+        "avg": 0.4166666666666667,
+        "pass": 10,
+        "total": 24
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "8": {
+      "range": {
+        "avg": 0.65625,
+        "pass": 21,
+        "total": 32
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "9": {
+      "range": {
+        "avg": 0.5,
+        "pass": 12,
+        "total": 24
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "10": {
+      "range": {
+        "avg": 0.3125,
+        "pass": 5,
+        "total": 16
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "11": {
+      "range": {
+        "avg": 0.8333333333333334,
+        "pass": 20,
+        "total": 24
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "12": {
+      "range": {
+        "avg": 0.5,
+        "pass": 8,
+        "total": 16
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 1.0,
+        "pass": 8,
+        "total": 8
+      }
+    },
+    "13": {
+      "range": {
+        "avg": 0.75,
+        "pass": 18,
+        "total": 24
+      },
+      "approx": {
+        "avg": 0.25,
+        "pass": 2,
+        "total": 8
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "14": {
+      "range": {
+        "avg": 0.5,
+        "pass": 20,
+        "total": 40
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "15": {
+      "range": {
+        "avg": 0.5,
+        "pass": 8,
+        "total": 16
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 1.0,
+        "pass": 8,
+        "total": 8
+      }
+    },
+    "16": {
+      "range": {
+        "avg": 1.0,
+        "pass": 40,
+        "total": 40
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "17": {
+      "range": {
+        "avg": 0.5833333333333334,
+        "pass": 14,
+        "total": 24
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "18": {
+      "range": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 8
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 1.0,
+        "pass": 16,
+        "total": 16
+      }
+    },
+    "19": {
+      "range": {
+        "avg": 0.4375,
+        "pass": 7,
+        "total": 16
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.25,
+        "pass": 2,
+        "total": 8
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    },
+    "20": {
+      "range": {
+        "avg": 0.9375,
+        "pass": 15,
+        "total": 16
+      },
+      "approx": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "gte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      },
+      "lte": {
+        "avg": 0.0,
+        "pass": 0,
+        "total": 0
+      }
+    }
+  },
+  "global": {
+    "range": {
+      "avg": 0.5673076923076923,
+      "pass": 295,
+      "total": 520
+    },
+    "approx": {
+      "avg": 0.25,
+      "pass": 2,
+      "total": 8
+    },
+    "gte": {
+      "avg": 0.625,
+      "pass": 10,
+      "total": 16
+    },
+    "lte": {
+      "avg": 1.0,
+      "pass": 32,
+      "total": 32
+    }
+  }
+}
