@@ -15,8 +15,8 @@ def hard_metric(relation: str, actual: int, target):
     elif relation == "lte":
         return 1 if actual <= target else 0
     elif relation == "approx":
-        lo = round(0.9 * target)
-        hi = round(1.1 * target)
+        lo = round(0.95 * target)
+        hi = round(1.05 * target)
         return 1 if lo <= actual <= hi else 0
     else:
         return 0
