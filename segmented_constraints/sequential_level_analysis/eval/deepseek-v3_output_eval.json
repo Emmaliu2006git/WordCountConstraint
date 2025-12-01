@@ -1,0 +1,2509 @@
+{
+  "model": "deepseek-v3_output",
+  "prompt_avg_scores": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.25,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.5,
+    "8": 0.0,
+    "9": 0.625,
+    "10": 0.875,
+    "11": 0.875,
+    "12": 1.0,
+    "13": 0.5,
+    "14": 0.5,
+    "15": 0.875,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0
+  },
+  "prompt_details": {
+    "1": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 163,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 158,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 171,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 172,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 0.0,
+          "measured": 165,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 161,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 168,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 187,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "2": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 150,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 159,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 159,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 153,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 0.0,
+          "measured": 153,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 174,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 156,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 159,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "3": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 193,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 156,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 150,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 152,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 0.0,
+          "measured": 158,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 181,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 150,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 163,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "4": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 235,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 241,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 260,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 243,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 251,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 243,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 249,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 225,
+          "target": "250-300",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "5": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 161,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 131,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 140,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 213,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 0.0,
+          "measured": 165,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 164,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 189,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 85,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "6": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 185,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 233,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 229,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 197,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 0.0,
+          "measured": 291,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 191,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 268,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 225,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "7": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 325,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 248,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 393,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 287,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 316,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 267,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 280,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 323,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "8": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 297,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 296,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 222,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 285,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 0.0,
+          "measured": 251,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 262,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 244,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 219,
+          "target": "300-400",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "9": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 10,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 8,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 8,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 10,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 0.0,
+          "measured": 8,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 10,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 10,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        }
+      ]
+    },
+    "10": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 14,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 18,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 10,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        }
+      ]
+    },
+    "11": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 10,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 13,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 16,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        }
+      ]
+    },
+    "12": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 13,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 11,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 14,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 13,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 12,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 10,
+          "target": "10-15",
+          "level": "line",
+          "relation": "range"
+        }
+      ]
+    },
+    "13": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 103,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 0.0,
+          "measured": 94,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 85,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 0.0,
+          "measured": 92,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 104,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 105,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 117,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 78,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "14": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 113,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 105,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 0.0,
+          "measured": 83,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 114,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 0.0,
+          "measured": 84,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 121,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 0.0,
+          "measured": 84,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 0.0,
+          "measured": 85,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "15": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 0.0,
+          "measured": 98,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 107,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 119,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 105,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 109,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 116,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 111,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 120,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "16": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 132,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 128,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 146,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 135,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 127,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 128,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 141,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 138,
+          "target": "100-150",
+          "level": "word",
+          "relation": "range"
+        }
+      ]
+    },
+    "17": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        }
+      ]
+    },
+    "18": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        }
+      ]
+    },
+    "19": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        }
+      ]
+    },
+    "20": {
+      "sample_scores": [
+        {
+          "output_idx": 1,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 2,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 3,
+          "score": 1.0,
+          "measured": 3,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 4,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 5,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 6,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 7,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        },
+        {
+          "output_idx": 8,
+          "score": 1.0,
+          "measured": 2,
+          "target": "2-4",
+          "level": "paragraph",
+          "relation": "range"
+        }
+      ]
+    }
+  },
+  "per_output_records": [
+    {
+      "prompt_id": 1,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 163,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 158,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 171,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 172,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 5,
+      "score": 0.0,
+      "measured": 165,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 161,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 168,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 1,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 187,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 150,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 159,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 159,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 153,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 5,
+      "score": 0.0,
+      "measured": 153,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 174,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 156,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 2,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 159,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 193,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 156,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 150,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 152,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 5,
+      "score": 0.0,
+      "measured": 158,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 181,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 150,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 3,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 163,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 235,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 241,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 260,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 243,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 251,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 243,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 249,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 4,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 225,
+      "target": "250-300"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 161,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 131,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 140,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 213,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 5,
+      "score": 0.0,
+      "measured": 165,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 164,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 189,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 5,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 85,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 185,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 233,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 229,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 197,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 5,
+      "score": 0.0,
+      "measured": 291,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 191,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 268,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 6,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 225,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 325,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 248,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 393,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 287,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 316,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 267,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 280,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 7,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 323,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 297,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 296,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 222,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 285,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 5,
+      "score": 0.0,
+      "measured": 251,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 262,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 244,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 8,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 219,
+      "target": "300-400"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 10,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 8,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 8,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 10,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 6,
+      "score": 0.0,
+      "measured": 8,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 10,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 9,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 10,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 14,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 18,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 10,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 10,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 10,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 13,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 16,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 11,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 13,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 11,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 14,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 13,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 12,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 12,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 10,
+      "target": "10-15"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 103,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 2,
+      "score": 0.0,
+      "measured": 94,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 85,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 4,
+      "score": 0.0,
+      "measured": 92,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 104,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 105,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 117,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 13,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 78,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 113,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 105,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 3,
+      "score": 0.0,
+      "measured": 83,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 114,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 5,
+      "score": 0.0,
+      "measured": 84,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 121,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 7,
+      "score": 0.0,
+      "measured": 84,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 14,
+      "output_idx": 8,
+      "score": 0.0,
+      "measured": 85,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 1,
+      "score": 0.0,
+      "measured": 98,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 107,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 119,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 105,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 109,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 116,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 111,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 15,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 120,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 132,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 128,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 146,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 135,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 127,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 128,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 141,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 16,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 138,
+      "target": "100-150"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 17,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 18,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 19,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 1,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 2,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 3,
+      "score": 1.0,
+      "measured": 3,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 4,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 5,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 6,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 7,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    },
+    {
+      "prompt_id": 20,
+      "output_idx": 8,
+      "score": 1.0,
+      "measured": 2,
+      "target": "2-4"
+    }
+  ]
+}
